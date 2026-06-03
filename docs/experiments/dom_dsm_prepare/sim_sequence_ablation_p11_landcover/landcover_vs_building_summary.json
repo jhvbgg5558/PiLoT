@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "init_xy_rmse": 4.080530016881124,
+      "init_yaw_rmse": 1.0206139999999948,
+      "label": "building_firstpose_gate",
+      "landcover_summary": {},
+      "pose_reject_reasons": {
+        "pose_yaw_jump": 100
+      },
+      "raw_refined_xy_rmse": 7.125642923377891,
+      "raw_refined_yaw_rmse": 177.95922771185002,
+      "run_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_firstpose_gate",
+      "safe_gate_accept_ratio": 0.0,
+      "selected_method_counts": {
+        "init": 100
+      },
+      "selected_xy_error_stats": {
+        "max": 4.080538410955168,
+        "mean": 4.080530016879438,
+        "median": 4.0805298470454225,
+        "p90": 4.080534755293906
+      },
+      "selected_xy_rmse": 4.080530016881124,
+      "selected_yaw_error_stats": {
+        "max": 1.0206139999999948,
+        "mean": 1.0206139999999948,
+        "median": 1.0206139999999948,
+        "p90": 1.0206139999999948
+      },
+      "selected_yaw_rmse": 1.0206139999999948,
+      "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11",
+      "temporal_reject_reasons": {
+        "temporal_xy": 396
+      },
+      "visual_reject_reasons": {},
+      "worse_frame_ratio": 1.0
+    },
+    {
+      "init_xy_rmse": 4.0805290382144985,
+      "init_yaw_rmse": 1.0206139999999948,
+      "label": "landcover_firstpose_gate",
+      "landcover_summary": {
+        "building_density": 0.01189208984375,
+        "edge_density": 0.24397135416666665,
+        "height_variation": 1.4832927703857421,
+        "landcover_score": 1.4566847705841064,
+        "road_like_ratio": 0.5777419704861111,
+        "vegetation_ratio": 0.39974283854166665
+      },
+      "pose_reject_reasons": {
+        "pose_yaw_jump": 100
+      },
+      "raw_refined_xy_rmse": 7.333311779096134,
+      "raw_refined_yaw_rmse": 177.96027421829191,
+      "run_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate",
+      "safe_gate_accept_ratio": 0.0,
+      "selected_method_counts": {
+        "init": 100
+      },
+      "selected_xy_error_stats": {
+        "max": 4.080536735665128,
+        "mean": 4.080529038213016,
+        "median": 4.080528886213376,
+        "p90": 4.080533710934568
+      },
+      "selected_xy_rmse": 4.0805290382144985,
+      "selected_yaw_error_stats": {
+        "max": 1.0206139999999948,
+        "mean": 1.0206139999999948,
+        "median": 1.0206139999999948,
+        "p90": 1.0206139999999948
+      },
+      "selected_yaw_rmse": 1.0206139999999948,
+      "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+      "temporal_reject_reasons": {
+        "temporal_xy": 396
+      },
+      "visual_reject_reasons": {
+        "visual_chamfer_worse": 217,
+        "visual_overlap_worse": 16
+      },
+      "worse_frame_ratio": 1.0
+    }
+  ]
+}

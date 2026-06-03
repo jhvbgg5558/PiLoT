@@ -1,0 +1,5 @@
+{
+  "selected_candidate": "line_search_scale_0p50",
+  "raw_refined_visually_degrades_initial": true,
+  "summary": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4/0003/summary_metrics.json"
+}

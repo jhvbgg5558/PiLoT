@@ -55,25 +55,40 @@ def render(viewpoint_camera, pc, pipe, bg_color, scaling_modifier=1.0):
     scales = pc.get_scaling
     rotations = pc.get_rotation
     shs = pc.get_features
-    semantic_feature = pc.get_semantic_feature
-
-    rendered_image, feature_map, radii, depth = rasterizer(
+    rendered_image, radii = rasterizer(
         means3D=means3D,
         means2D=means2D,
         shs=shs,
         colors_precomp=None,
-        semantic_feature=semantic_feature,
         opacities=opacity,
         scales=scales,
         rotations=rotations,
         cov3D_precomp=None,
     )
 
+    ones = torch.ones((means3D.shape[0], 1), dtype=means3D.dtype, device="cuda")
+    means_h = torch.cat((means3D, ones), dim=1)
+    view_xyz = means_h @ viewpoint_camera.world_view_transform
+    z = view_xyz[:, 2:3].clamp_min(0)
+    aux_colors = torch.cat((z, ones, torch.zeros_like(ones)), dim=1)
+    aux_image, _ = rasterizer(
+        means3D=means3D,
+        means2D=means2D,
+        shs=None,
+        colors_precomp=aux_colors,
+        opacities=opacity,
+        scales=scales,
+        rotations=rotations,
+        cov3D_precomp=None,
+    )
+    alpha = aux_image[1:2].clamp_min(1e-6)
+    depth = aux_image[0:1] / alpha
+
     return {
         "render": rendered_image,
         "viewspace_points": screenspace_points,
         "visibility_filter": radii > 0,
         "radii": radii,
-        "feature_map": feature_map,
+        "feature_map": None,
         "depth": depth,
     }

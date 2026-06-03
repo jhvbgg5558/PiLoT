@@ -1,0 +1,11 @@
+{
+  "config": "configs/caiwangcun_domdsm.yaml",
+  "failure_stage": null,
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/p9_3_translation_convention_audit_0000",
+  "p9_2_dir": "docs/experiments/dom_dsm_prepare/raw_refine_diagnostics_exif_test_0000",
+  "pose_file": "data_caiwangcun/query/poses/exif_test_yawfix.txt",
+  "query_image": "data_caiwangcun/query/images/exif_test/0000.jpg",
+  "source_experiment": "docs/experiments/dom_dsm_prepare/domdsm_refine_single_0000_exif_test",
+  "total_time_sec": 56.02781242300001,
+  "traceback": null
+}

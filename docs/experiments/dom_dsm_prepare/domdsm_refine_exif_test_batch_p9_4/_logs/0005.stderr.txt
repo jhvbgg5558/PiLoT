@@ -1,0 +1,37 @@
+[06/02/2026 10:11:56 pixloc.utils.dom_dsm.dom_dsm_render INFO] DOM/DSM CRS=EPSG:32650 DOM bounds=BoundingBox(left=253383.72102534556, bottom=3363502.5166208195, right=255617.45091653088, top=3365689.8913650466) DSM bounds=BoundingBox(left=253383.72102534556, bottom=3363502.5166208195, right=255617.45091653088, top=3365689.8913650466) DOM res=(0.1400457612028412, 0.1400457612028412) DSM res=(0.1400457612028412, 0.1400457612028412)
+[06/02/2026 10:12:22 pixloc.utils.dom_dsm.dom_dsm_render INFO] DOMDSMRenderer ready: 512x383 backend=gpu_mesh, DOM=/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dom.tif, DSM=/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dsm.tif
+[06/02/2026 10:12:22 pixloc.pixlib.utils.experiments INFO] Loading checkpoint model@mapscape@512@Fourier.ckpt
+/mnt/d/aiproject/PiLoT_work/pixloc/pixlib/utils/experiments.py:90: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(str(ckpt), map_location='cpu')
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter optimizer.dampingnet.const.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.0.a.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.0.W_q.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.0.Ws.0.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.0.Ws.1.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.1.a.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.1.W_q.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.1.Ws.0.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.1.Ws.1.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.2.a.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.2.W_q.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.2.Ws.0.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] Drop parameter GATs.2.Ws.1.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] No param optimizer.0.dampingnet.const.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] No param optimizer.1.dampingnet.const.
+[06/02/2026 10:12:29 pixloc.pixlib.utils.experiments INFO] No param optimizer.2.dampingnet.const.
+[06/02/2026 10:12:30 pixloc.utils.dom_dsm.terrain_mesh_renderer INFO] TerrainMeshRenderer ready: 512x383 mesh_gsd=0.500m tile=512.0m margin=80.0m
+[W602 10:12:48.117905943 BatchLinearAlgebra.cpp:1688] Warning: torch.cholesky is deprecated in favor of torch.linalg.cholesky and will be removed in a future PyTorch release.
+L = torch.cholesky(A)
+should be replaced with
+L = torch.linalg.cholesky(A)
+and
+U = torch.cholesky(A, upper=True)
+should be replaced with
+U = torch.linalg.cholesky(A).mH
+This transform will produce equivalent results for all valid (symmetric positive definite) inputs. (function operator())
+/mnt/d/aiproject/PiLoT_work/pixloc/utils/get_depth.py:546: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  render_T = torch.tensor(render_T, device=device)
+/mnt/d/aiproject/PiLoT_work/pixloc/utils/get_depth.py:547: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mkpts_r = torch.tensor(mkpts_r, device=device)
+/mnt/d/aiproject/PiLoT_work/pixloc/utils/get_depth.py:76: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  depth_t = torch.tensor(depth).to(device)

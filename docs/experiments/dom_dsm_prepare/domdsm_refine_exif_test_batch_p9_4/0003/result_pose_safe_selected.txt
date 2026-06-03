@@ -1,0 +1,4 @@
+# safe_selected
+method: line_search_scale_0p50
+safe_gate_pass: True
+0003.JPG 114.44349703850088 30.38288276588743 391.433 180.0 0.0 29.19999999999999

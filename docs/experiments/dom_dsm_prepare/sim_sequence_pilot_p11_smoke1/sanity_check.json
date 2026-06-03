@@ -1,0 +1,8 @@
+{
+  "mean_gt_chamfer": 0.05480720475316048,
+  "mean_gt_overlap": 0.9912320022950996,
+  "mean_init_chamfer": 0.9393740892410278,
+  "mean_init_overlap": 0.8440766706711373,
+  "num_frames": 1,
+  "passed": true
+}

@@ -1,0 +1,333 @@
+{
+  "camera_axes_world": {
+    "corrected_downward_yaw": {
+      "camera_axes_dom_local": {
+        "x": [
+          -0.8620894978628646,
+          -0.5067560534167838,
+          -1.2246467991473532e-16
+        ],
+        "y": [
+          -0.5067560534167838,
+          0.8620894978628646,
+          0.0
+        ],
+        "z": [
+          1.0557551441363059e-16,
+          6.205971787654093e-17,
+          -1.0
+        ]
+      },
+      "camera_axes_world_ecef": {
+        "x": [
+          0.6788039193764058,
+          0.590041338446046,
+          -0.43712293232456795
+        ],
+        "y": [
+          0.6417839124028609,
+          -0.1874235383917064,
+          0.7436301681868548
+        ],
+        "z": [
+          0.35684541305740114,
+          -0.7853175384400448,
+          -0.5059028711110085
+        ]
+      },
+      "is_downward_in_dom_local": true,
+      "viewing_direction_dom_local": [
+        1.0557551441363059e-16,
+        6.205971787654093e-17,
+        -1.0
+      ],
+      "viewing_direction_world_ecef": [
+        0.35684541305740114,
+        -0.7853175384400448,
+        -0.5059028711110085
+      ]
+    },
+    "initial": {
+      "camera_axes_dom_local": {
+        "x": [
+          -0.8729220772698099,
+          -0.4878596591387325,
+          -1.2246467991473532e-16
+        ],
+        "y": [
+          -0.4878596591387325,
+          0.8729220772698099,
+          -6.162975822039155e-33
+        ],
+        "z": [
+          1.0690212278335311e-16,
+          5.974557699973675e-17,
+          -1.0
+        ]
+      },
+      "camera_axes_world_ecef": {
+        "x": [
+          0.6926208239933219,
+          0.5858195359512842,
+          -0.4208228433303424
+        ],
+        "y": [
+          0.6268476804507489,
+          -0.20023090113600323,
+          0.7529738187638266
+        ],
+        "z": [
+          0.3568450359530416,
+          -0.7853171700199139,
+          -0.5059037090075406
+        ]
+      },
+      "is_downward_in_dom_local": true,
+      "viewing_direction_dom_local": [
+        1.0690212278335311e-16,
+        5.974557699973675e-17,
+        -1.0
+      ],
+      "viewing_direction_world_ecef": [
+        0.3568450359530416,
+        -0.7853171700199139,
+        -0.5059037090075406
+      ]
+    },
+    "raw_refined_full": {
+      "camera_axes_dom_local": {
+        "x": [
+          -0.8620870650216625,
+          -0.5067546233367177,
+          0.0023757207742643705
+        ],
+        "y": [
+          -0.5067601640233679,
+          0.8620791049851058,
+          -0.0037084912145233565
+        ],
+        "z": [
+          -0.00016876417020904094,
+          -0.004400962956026996,
+          -0.9999903014748266
+        ]
+      },
+      "camera_axes_world_ecef": {
+        "x": [
+          0.6779542387113432,
+          0.5919053685229916,
+          -0.4359198147905013
+        ],
+        "y": [
+          0.6431088377547278,
+          -0.1903293942834105,
+          0.7417450670368313
+        ],
+        "z": [
+          0.356074532949334,
+          -0.7832130976850246,
+          -0.5096941932174056
+        ]
+      },
+      "is_downward_in_dom_local": true,
+      "viewing_direction_dom_local": [
+        -0.00016876417020904094,
+        -0.004400962956026996,
+        -0.9999903014748266
+      ],
+      "viewing_direction_world_ecef": [
+        0.356074532949334,
+        -0.7832130976850246,
+        -0.5096941932174056
+      ]
+    }
+  },
+  "convention": {
+    "domdsm_renderer_helper": "scipy.spatial.transform.Rotation.from_euler('xyz', euler) -> raster/world camera-to-world",
+    "ecef_matrix_helper": "pixloc.utils.transform.euler_angles_to_matrix_ECEF -> ECEF camera-to-world",
+    "pilot_euler_order": "[pitch, roll, yaw], scipy/transform xyz",
+    "pose_dict_yz_flip": "src.utils.pose_utils.load_pose_dict flips c2w camera Y/Z before building PixLoc T_w2c",
+    "refined_output": "BaseRefiner converts selected PixLoc T_refined from w2c back to c2w, then pixloc_to_osg returns WGS84 camera center and ENU xyz Euler."
+  },
+  "decision": {
+    "corrected_downward_yaw_status": "reasonable adapter candidate for yaw branch testing",
+    "needs_east_north_sign_or_axis_swap_check": true,
+    "next_step_recommendation": "Translation is in the expected WGS84/DOMDSM chain, but no grid/local best is available for direction comparison. Rerun east/north/yaw local search or P11 scorer before accepting raw objective updates.",
+    "next_step_situation": "D",
+    "raw_180_change_classification": "mostly Euler branch/convention equivalent",
+    "raw_refined_full_formal_candidate": false,
+    "translation_delta_same_coordinate_chain": true
+  },
+  "inputs": {
+    "config": "configs/caiwangcun_domdsm.yaml",
+    "pose_file": "data_caiwangcun/query/poses/exif_test_yawfix.txt",
+    "query_image": "data_caiwangcun/query/images/exif_test/0000.jpg",
+    "raster_crs": "EPSG:32650",
+    "summary_metrics": "docs/experiments/dom_dsm_prepare/domdsm_refine_single_0000_exif_test/summary_metrics.json"
+  },
+  "known_results": {
+    "corrected_downward_yaw": {
+      "alt_m": 0.0,
+      "east_m": 1.0790679772035219,
+      "edge_chamfer": 9.73483943939209,
+      "edge_overlap_ratio": 0.401378782075833,
+      "north_m": -6.1980915744788945,
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "torch_feature_loss": 0.2721477746963501,
+      "yaw_deg": 1.2479926357518423
+    },
+    "initial": {
+      "alt_m": 0.0,
+      "east_m": 0.0,
+      "edge_chamfer": 7.15685510635376,
+      "edge_overlap_ratio": 0.5511176255038476,
+      "north_m": 0.0,
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "torch_feature_loss": 0.2257901281118393,
+      "yaw_deg": 0.0
+    },
+    "raw_refined_full": {
+      "alt_m": -9.527802128985513,
+      "east_m": 1.0790679772035219,
+      "edge_chamfer": 11.052322387695312,
+      "edge_overlap_ratio": 0.30436461954422556,
+      "north_m": -6.1980915744788945,
+      "pitch_deg": -179.78751801837214,
+      "roll_deg": -180.13611890171074,
+      "torch_feature_loss": 0.31915366649627686,
+      "yaw_deg": -178.75200736424816
+    }
+  },
+  "relative_rotation_angles_deg": {
+    "initial_to_corrected_downward_yaw": 1.2479990523213937,
+    "initial_to_raw_refined_full": 1.2734905763487914,
+    "raw_refined_full_to_corrected_downward_yaw": 0.25234287523434623
+  },
+  "roundtrip": {
+    "corrected_downward_yaw": {
+      "input_euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        30.44799263575183
+      ],
+      "input_translation_lon_lat_alt": [
+        114.43687356974533,
+        30.391305316646882,
+        391.462
+      ],
+      "max_abs_R_diff": 2.220446049250313e-16,
+      "relative_angle_before_after_deg": 0.0,
+      "roundtrip_euler_pitch_roll_yaw": [
+        180.0,
+        2.5444437451708134e-14,
+        -149.55200736424817
+      ],
+      "roundtrip_translation_lon_lat_alt": [
+        114.43687356974534,
+        30.39130531664689,
+        391.4620000012219
+      ]
+    },
+    "initial": {
+      "input_euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "input_translation_lon_lat_alt": [
+        114.4368608889,
+        30.3913609722,
+        391.462
+      ],
+      "max_abs_R_diff": 2.220446049250313e-16,
+      "relative_angle_before_after_deg": 0.0,
+      "roundtrip_euler_pitch_roll_yaw": [
+        180.0,
+        1.2722218725854067e-14,
+        -150.8
+      ],
+      "roundtrip_translation_lon_lat_alt": [
+        114.4368608889,
+        30.39136097220002,
+        391.46199999935925
+      ]
+    },
+    "raw_refined_full": {
+      "input_euler_pitch_roll_yaw": [
+        -179.78751801837214,
+        -0.13611890171073499,
+        -149.55200736424817
+      ],
+      "input_translation_lon_lat_alt": [
+        114.43687356974533,
+        30.391305316646882,
+        381.9341978710145
+      ],
+      "max_abs_R_diff": 1.1102230246251565e-16,
+      "relative_angle_before_after_deg": 0.0,
+      "roundtrip_euler_pitch_roll_yaw": [
+        -179.78751801837214,
+        -0.13611890171072225,
+        -149.55200736424817
+      ],
+      "roundtrip_translation_lon_lat_alt": [
+        114.43687356974534,
+        30.39130531664689,
+        381.9341978710145
+      ]
+    }
+  },
+  "translation_delta_audit": {
+    "corrected_downward_yaw_minus_initial": {
+      "alt_m": 0.0,
+      "east_m": 1.0790679772035219,
+      "north_m": -6.1980915744788945,
+      "pitch_deg": 0.0,
+      "roll_deg": 0.0,
+      "yaw_deg": 1.2479926357518423
+    },
+    "grid_best_comparison": {
+      "cos_angle_between_delta_xy": null,
+      "grid_best_delta_xy": null,
+      "message": "grid_best not found in current summary; rerun local search or provide its summary for delta comparison.",
+      "raw_refined_delta_xy": [
+        1.0790679772035219,
+        -6.1980915744788945
+      ]
+    },
+    "interpretation": "Summary translations are WGS84 lon/lat/alt camera centers. ENU deltas are computed through the DOM/DSM raster CRS via pose_adapter.compute_enu_delta_m, matching the renderer's WGS84-to-raster transform path.",
+    "possible_internal_forms_checked": [
+      "camera center WGS84",
+      "ECEF camera-to-world translation",
+      "PixLoc world-to-camera pose after origin/mul normalization",
+      "DOM/DSM projected raster x/y meters"
+    ],
+    "raw_refined_full_minus_initial": {
+      "alt_m": -9.527802128985513,
+      "east_m": 1.0790679772035219,
+      "north_m": -6.1980915744788945,
+      "pitch_deg": -179.78751801837214,
+      "roll_deg": -180.13611890171074,
+      "yaw_deg": -178.75200736424816
+    }
+  },
+  "viewing_direction_world": {
+    "corrected_downward_yaw": [
+      0.35684541305740114,
+      -0.7853175384400448,
+      -0.5059028711110085
+    ],
+    "initial": [
+      0.3568450359530416,
+      -0.7853171700199139,
+      -0.5059037090075406
+    ],
+    "raw_refined_full": [
+      0.356074532949334,
+      -0.7832130976850246,
+      -0.5096941932174056
+    ]
+  }
+}

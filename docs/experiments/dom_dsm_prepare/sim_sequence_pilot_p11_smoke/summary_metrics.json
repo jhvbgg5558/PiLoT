@@ -1,0 +1,20 @@
+{
+  "correlation_feature_loss_drop_vs_xy_error_drop": null,
+  "improved_frame_ratio": 0.0,
+  "init_xy_rmse": 4.308403169742424,
+  "init_yaw_rmse": 0.6031645359084534,
+  "interpretation": "Raw refinement is unstable on some frames, but safe gate prevents regressions against init.",
+  "mean_feature_loss_drop": null,
+  "mean_init_chamfer": 0.9190146724383036,
+  "mean_init_overlap": 0.8564843216485615,
+  "mean_refined_chamfer": 0.9398889938990275,
+  "mean_refined_overlap": 0.8460361757721819,
+  "num_frames": 3,
+  "recommended_next_step": "Tune safe gate and then proceed to temporal smoothing with selected poses.",
+  "refined_xy_rmse": 8.032963479838305,
+  "refined_yaw_rmse": 179.11945664123817,
+  "safe_gate_accept_ratio": 0.0,
+  "selected_xy_rmse": 4.308403169742424,
+  "selected_yaw_rmse": 0.6031645359084534,
+  "worse_frame_ratio": 1.0
+}

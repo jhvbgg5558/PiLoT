@@ -1,0 +1,187 @@
+{
+  "best_xy_rmse": 2.756603611314328,
+  "best_xy_strategy": "gate_v2_current",
+  "best_yaw_rmse": 1.0206139999999948,
+  "best_yaw_strategy": "temporal_pred_only",
+  "interpretation": "Compare gate_v2_current with temporal_pred_only to determine whether gains come from odometry/temporal prior or PiLoT image refinement.",
+  "strategies": [
+    {
+      "drift_end_error": 4.81964684200742,
+      "improved_frame_ratio_vs_init": 0.0,
+      "max_xy_error": 8.787287317620725,
+      "max_yaw_error": 7.247135000000014,
+      "selected_method_counts": {
+        "init": 100
+      },
+      "strategy": "init_only",
+      "worse_frame_ratio_vs_init": 0.0,
+      "xy_mean": 3.4044806893990103,
+      "xy_median": 3.055755729074146,
+      "xy_p90": 6.08262297575394,
+      "xy_rmse": 3.861568477851895,
+      "yaw_mean": 1.5468907200000006,
+      "yaw_median": 1.1057290000000108,
+      "yaw_p90": 3.4616831000000228,
+      "yaw_rmse": 2.0517695124663553
+    },
+    {
+      "drift_end_error": 6.970760517569576,
+      "improved_frame_ratio_vs_init": 0.37,
+      "max_xy_error": 14.096873081731545,
+      "max_yaw_error": 179.96796581885874,
+      "selected_method_counts": {
+        "refined": 100
+      },
+      "strategy": "raw_refined_only",
+      "worse_frame_ratio_vs_init": 0.63,
+      "xy_mean": 4.173721447852639,
+      "xy_median": 3.841959877385296,
+      "xy_p90": 7.918639922233304,
+      "xy_rmse": 5.200420081595403,
+      "yaw_mean": 176.9067165744234,
+      "yaw_median": 177.7842620932736,
+      "yaw_p90": 179.59419345617232,
+      "yaw_rmse": 176.92723820355707
+    },
+    {
+      "drift_end_error": 6.970760517569576,
+      "improved_frame_ratio_vs_init": 0.37,
+      "max_xy_error": 14.096873081731545,
+      "max_yaw_error": 14.484135822434325,
+      "selected_method_counts": {
+        "corrected_refined_only": 100
+      },
+      "strategy": "corrected_refined_only",
+      "worse_frame_ratio_vs_init": 0.63,
+      "xy_mean": 4.173721447852639,
+      "xy_median": 3.841959877385296,
+      "xy_p90": 7.918639922233304,
+      "xy_rmse": 5.200420081595403,
+      "yaw_mean": 3.0932834255765456,
+      "yaw_median": 2.2157379067263747,
+      "yaw_p90": 6.91926770837351,
+      "yaw_rmse": 4.102395829972316
+    },
+    {
+      "drift_end_error": 4.81964684200742,
+      "improved_frame_ratio_vs_init": 0.15,
+      "max_xy_error": 9.15377324137768,
+      "max_yaw_error": 179.96796492626697,
+      "selected_method_counts": {
+        "init": 83,
+        "refined": 17
+      },
+      "strategy": "old_visual_gate",
+      "worse_frame_ratio_vs_init": 0.02,
+      "xy_mean": 3.074404412271455,
+      "xy_median": 2.659330292677079,
+      "xy_p90": 5.85144930637613,
+      "xy_rmse": 3.5947919113321647,
+      "yaw_mean": 31.892537119293312,
+      "yaw_median": 1.7335819999999984,
+      "yaw_p90": 179.37017870480094,
+      "yaw_rmse": 73.83417395771424
+    },
+    {
+      "drift_end_error": 4.08053236299709,
+      "improved_frame_ratio_vs_init": 0.27,
+      "max_xy_error": 4.080538413722646,
+      "max_yaw_error": 1.0206139999999948,
+      "selected_method_counts": {
+        "init_seed": 1,
+        "temporal_pred_only": 99
+      },
+      "strategy": "temporal_pred_only",
+      "worse_frame_ratio_vs_init": 0.72,
+      "xy_mean": 4.080530031608641,
+      "xy_median": 4.080529858677856,
+      "xy_p90": 4.080534758130927,
+      "xy_rmse": 4.080530031610323,
+      "yaw_mean": 1.0206139999999948,
+      "yaw_median": 1.0206139999999948,
+      "yaw_p90": 1.0206139999999948,
+      "yaw_rmse": 1.0206139999999948
+    },
+    {
+      "drift_end_error": 6.970760516779605,
+      "improved_frame_ratio_vs_init": 0.36,
+      "max_xy_error": 14.096873082557046,
+      "max_yaw_error": 7.247135000000014,
+      "selected_method_counts": {
+        "init": 5,
+        "refined_freeze_alt_corrected_yaw": 9,
+        "refined_freeze_alt_init_yaw": 86
+      },
+      "strategy": "gate_v2_no_temporal",
+      "worse_frame_ratio_vs_init": 0.59,
+      "xy_mean": 4.176626799289381,
+      "xy_median": 3.841959877583498,
+      "xy_p90": 8.683050985255623,
+      "xy_rmse": 5.2003617136491105,
+      "yaw_mean": 1.5677973913874945,
+      "yaw_median": 1.1303300000000007,
+      "yaw_p90": 3.4616831000000228,
+      "yaw_rmse": 2.05761549672717
+    },
+    {
+      "drift_end_error": 1.6981837304096687,
+      "improved_frame_ratio_vs_init": 0.58,
+      "max_xy_error": 8.787287317620725,
+      "max_yaw_error": 5.826243000000005,
+      "selected_method_counts": {
+        "init": 32,
+        "refined_freeze_alt_corrected_yaw": 1,
+        "refined_freeze_alt_init_yaw": 2,
+        "temporal_predicted": 65
+      },
+      "strategy": "gate_v2_current",
+      "worse_frame_ratio_vs_init": 0.1,
+      "xy_mean": 2.2767737658467535,
+      "xy_median": 1.9898272801139698,
+      "xy_p90": 3.594853318424313,
+      "xy_rmse": 2.756603611314328,
+      "yaw_mean": 0.6538242222187387,
+      "yaw_median": 0.4219519999999761,
+      "yaw_p90": 1.0846890000000258,
+      "yaw_rmse": 1.0235596297867737
+    },
+    {
+      "drift_end_error": 4.0805323300647975,
+      "improved_frame_ratio_vs_init": 0.0,
+      "max_xy_error": 4.080538410955168,
+      "max_yaw_error": 1.0206139999999948,
+      "selected_method_counts": {
+        "init": 100
+      },
+      "strategy": "firstpose_odom_init_only",
+      "worse_frame_ratio_vs_init": 0.0,
+      "xy_mean": 4.080530016879438,
+      "xy_median": 4.0805298470454225,
+      "xy_p90": 4.080534755293906,
+      "xy_rmse": 4.080530016881124,
+      "yaw_mean": 1.0206139999999948,
+      "yaw_median": 1.0206139999999948,
+      "yaw_p90": 1.0206139999999948,
+      "yaw_rmse": 1.0206139999999948
+    },
+    {
+      "drift_end_error": 4.0805323300647975,
+      "improved_frame_ratio_vs_init": 0.0,
+      "max_xy_error": 4.080538410955168,
+      "max_yaw_error": 1.0206139999999948,
+      "selected_method_counts": {
+        "init": 100
+      },
+      "strategy": "firstpose_odom_safe_selected",
+      "worse_frame_ratio_vs_init": 0.0,
+      "xy_mean": 4.080530016879438,
+      "xy_median": 4.0805298470454225,
+      "xy_p90": 4.080534755293906,
+      "xy_rmse": 4.080530016881124,
+      "yaw_mean": 1.0206139999999948,
+      "yaw_median": 1.0206139999999948,
+      "yaw_p90": 1.0206139999999948,
+      "yaw_rmse": 1.0206139999999948
+    }
+  ]
+}

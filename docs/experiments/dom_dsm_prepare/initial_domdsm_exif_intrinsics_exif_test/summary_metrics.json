@@ -1,0 +1,263 @@
+{
+  "config": "configs/caiwangcun_domdsm_16x9.yaml",
+  "experiment": "initial DOM/DSM full-resolution EXIF yawfix render",
+  "images": [
+    {
+      "candidate": "initial",
+      "depth_max": 390.0,
+      "depth_min": 360.0,
+      "edge_chamfer": 25.27025032043457,
+      "edge_overlap_count": 29316,
+      "edge_overlap_ratio": 0.24437738617228788,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "image": "0000.jpg",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0000/initial",
+      "query_edge_count": 393239,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0000.jpg",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 119962,
+      "render_height": 3956,
+      "render_time_sec": 19.477510454000367,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4368608889,
+        30.3913609722,
+        391.462
+      ],
+      "valid_depth_ratio": 0.9965827703220271
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 420.0,
+      "depth_min": 330.0,
+      "edge_chamfer": 23.749454498291016,
+      "edge_overlap_count": 41416,
+      "edge_overlap_ratio": 0.2776913586869066,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.400000000000006
+      ],
+      "image": "0001.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0001/initial",
+      "query_edge_count": 347716,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0001.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 149144,
+      "render_height": 3956,
+      "render_time_sec": 22.075233158999254,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4379083611,
+        30.3897293889,
+        391.49
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 420.0,
+      "depth_min": 330.0,
+      "edge_chamfer": 25.906518936157227,
+      "edge_overlap_count": 31781,
+      "edge_overlap_ratio": 0.20910065860029345,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "image": "0002.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0002/initial",
+      "query_edge_count": 257333,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0002.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 151989,
+      "render_height": 3956,
+      "render_time_sec": 32.812372016000154,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4386081667,
+        30.3886414722,
+        391.443
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 390.0,
+      "depth_min": 340.0,
+      "edge_chamfer": 20.486507415771484,
+      "edge_overlap_count": 82900,
+      "edge_overlap_ratio": 0.2718157554773006,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        -152.3
+      ],
+      "image": "0003.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0003/initial",
+      "query_edge_count": 507292,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0003.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 304986,
+      "render_height": 3956,
+      "render_time_sec": 28.474038846999974,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4434653333,
+        30.3830338889,
+        391.433
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 390.0,
+      "depth_min": 350.0,
+      "edge_chamfer": 17.24895477294922,
+      "edge_overlap_count": 98713,
+      "edge_overlap_ratio": 0.2529124658920588,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        -152.1
+      ],
+      "image": "0004.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0004/initial",
+      "query_edge_count": 494521,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0004.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 390305,
+      "render_height": 3956,
+      "render_time_sec": 25.18415422399994,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4427668611,
+        30.3841223889,
+        391.455
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 390.0,
+      "depth_min": 360.0,
+      "edge_chamfer": 25.371915817260742,
+      "edge_overlap_count": 44955,
+      "edge_overlap_ratio": 0.2887561422102322,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "image": "0005.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0005/initial",
+      "query_edge_count": 271638,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0005.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 155685,
+      "render_height": 3956,
+      "render_time_sec": 21.857358571000077,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4389233889,
+        30.3920651667,
+        391.457
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 420.0,
+      "depth_min": 330.0,
+      "edge_chamfer": 21.360614776611328,
+      "edge_overlap_count": 73759,
+      "edge_overlap_ratio": 0.25258893470131366,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "image": "0006.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0006/initial",
+      "query_edge_count": 424485,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0006.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 292012,
+      "render_height": 3956,
+      "render_time_sec": 30.41859822600054,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4399703611,
+        30.3904358889,
+        391.488
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "candidate": "initial",
+      "depth_max": 420.0,
+      "depth_min": 330.0,
+      "edge_chamfer": 23.106647491455078,
+      "edge_overlap_count": 70258,
+      "edge_overlap_ratio": 0.23660034753559545,
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.0
+      ],
+      "image": "0007.JPG",
+      "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0007/initial",
+      "query_edge_count": 435443,
+      "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0007.JPG",
+      "query_resized_for_overlay": false,
+      "render_edge_count": 296948,
+      "render_height": 3956,
+      "render_time_sec": 23.581061064000096,
+      "render_width": 5280,
+      "source_query_height": 3956,
+      "source_query_width": 5280,
+      "translation_lon_lat_alt": [
+        114.4407033889,
+        30.3892964722,
+        391.482
+      ],
+      "valid_depth_ratio": 1.0
+    }
+  ],
+  "metrics_mean": {
+    "edge_chamfer": 22.812608003616333,
+    "edge_overlap_ratio": 0.2542303811594986,
+    "valid_depth_ratio": 0.9995728462902533
+  },
+  "native_config_height": 3956,
+  "native_config_width": 5280,
+  "num_images_found": 8,
+  "num_images_rendered": 8,
+  "output_dir": "docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test",
+  "pose_file": "data_caiwangcun/query/poses/exif_test_yawfix.txt",
+  "query_dir": "data_caiwangcun/query/images/exif_test",
+  "raster_crs": "EPSG:32650",
+  "render_height": 3956,
+  "render_width": 5280,
+  "renderer": "FastArrayDOMDSMRenderer",
+  "skipped_images": []
+}

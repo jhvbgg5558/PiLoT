@@ -1,0 +1,132 @@
+{
+  "config": "configs/caiwangcun_domdsm.yaml",
+  "failure_stage": null,
+  "initial_euler_pitch_roll_yaw": [
+    0.0,
+    180.0,
+    29.19999999999999
+  ],
+  "initial_translation_lon_lat_alt": [
+    114.4386081667,
+    30.3886414722,
+    391.443
+  ],
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4/0002",
+  "pose_file": "docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4/_pose_files/0002.txt",
+  "query_image": "data_caiwangcun/query/images/exif_test/0002.JPG",
+  "raster_crs": "EPSG:32650",
+  "raw_refined_delta_east_north_alt_m": [
+    1.4904611799283884,
+    -3.666750471573323,
+    -10.79284351973979
+  ],
+  "raw_ret": {
+    "T_opt": "Pose: torch.Size([32]) torch.float32 cuda:0",
+    "T_refined": "Pose: torch.Size([]) torch.float32 cuda:0",
+    "diff_R": 7.378897666931152,
+    "diff_t": 0.011619072407484055,
+    "euler_angles": [
+      179.77438042784897,
+      -0.016148491895614302,
+      -150.17535005947212
+    ],
+    "fail_list": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "overall_loss": [
+      0.04078948497772217,
+      0.04086768254637718,
+      0.04079487547278404,
+      0.040837641805410385,
+      0.04077032580971718,
+      0.0409029982984066,
+      0.04079033434391022,
+      0.040802039206027985,
+      0.04090847447514534,
+      0.04080456122756004,
+      0.04086299613118172,
+      0.04086627811193466,
+      0.04087905213236809,
+      0.04078442603349686,
+      0.040823906660079956,
+      0.04087325185537338,
+      0.04091135039925575,
+      0.04084793105721474,
+      0.04088151082396507,
+      0.04082689434289932,
+      0.04079555720090866,
+      0.040870994329452515,
+      0.04079180210828781,
+      0.04077198728919029,
+      0.040771398693323135,
+      0.04089761897921562,
+      0.040900979191064835,
+      0.04086952656507492,
+      0.040783029049634933,
+      0.04079589620232582,
+      0.040968019515275955,
+      0.04083726555109024
+    ],
+    "success": true,
+    "translation": [
+      114.43862452837146,
+      30.38860872041244,
+      380.6501564802602
+    ]
+  },
+  "refined_euler_pitch_roll_yaw": [
+    179.77438042784897,
+    -0.016148491895614302,
+    -150.17535005947212
+  ],
+  "refined_translation_lon_lat_alt": [
+    114.43862452837146,
+    30.38860872041244,
+    380.6501564802602
+  ],
+  "run_query_success": true,
+  "run_query_time_sec": 0.6166390509999928,
+  "torch": {
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "device": "cuda",
+    "gpu_capability": [
+      6,
+      1
+    ],
+    "gpu_name": "NVIDIA GeForce GTX 1080",
+    "version": "2.4.1+cu124"
+  },
+  "traceback": null
+}

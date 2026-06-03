@@ -1,0 +1,118 @@
+[
+  {
+    "label": "current_config_gpu_mesh_fallback",
+    "requested_backend": "gpu_mesh",
+    "backend_used": "prototype",
+    "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+    "resolution": [
+      512,
+      384
+    ],
+    "warmup": 3,
+    "runs": 20,
+    "render_wall": {
+      "mean_ms": 197.04504545000037,
+      "median_ms": 191.8798164999984,
+      "p90_ms": 224.53397670000047,
+      "min_ms": 179.20812399999875,
+      "max_ms": 242.270836000003
+    },
+    "render_metadata": {
+      "mean_ms": 195.3356531999994,
+      "median_ms": 190.37768050000636,
+      "p90_ms": 222.90139659999969,
+      "min_ms": 177.6311619999973,
+      "max_ms": 240.15787300000113
+    },
+    "rgb_jpg_write": {
+      "mean_ms": 2.787739099998987,
+      "median_ms": 1.4959884999967699,
+      "p90_ms": 4.549311800002445,
+      "min_ms": 1.404726000004075,
+      "max_ms": 16.881716000000324
+    },
+    "depth_npy_write": {
+      "mean_ms": 0.795836100000713,
+      "median_ms": 0.6622845000023858,
+      "p90_ms": 0.9984167999959945,
+      "min_ms": 0.5231110000067929,
+      "max_ms": 2.337418000010416
+    },
+    "mask_png_write": {
+      "mean_ms": 0.7204331999979274,
+      "median_ms": 0.6939399999907891,
+      "p90_ms": 0.778216800000564,
+      "min_ms": 0.5945760000116707,
+      "max_ms": 1.4095549999950663
+    },
+    "valid_depth_ratio": 1.0,
+    "rgb_shape": [
+      384,
+      512,
+      3
+    ],
+    "depth_shape": [
+      384,
+      512
+    ],
+    "tmp_dir": "/tmp/pilot_render_timing_i56d96x_"
+  },
+  {
+    "label": "forced_prototype",
+    "requested_backend": "prototype",
+    "backend_used": "prototype",
+    "fallback_reason": null,
+    "resolution": [
+      512,
+      384
+    ],
+    "warmup": 3,
+    "runs": 20,
+    "render_wall": {
+      "mean_ms": 207.29764030000052,
+      "median_ms": 190.240689999996,
+      "p90_ms": 247.141678199995,
+      "min_ms": 174.22063299997603,
+      "max_ms": 370.72578200000805
+    },
+    "render_metadata": {
+      "mean_ms": 205.11343894999786,
+      "median_ms": 188.24254499999427,
+      "p90_ms": 244.2471096999982,
+      "min_ms": 172.34845400000154,
+      "max_ms": 368.55788299999404
+    },
+    "rgb_jpg_write": {
+      "mean_ms": 1.7787752500012743,
+      "median_ms": 1.4008964999874252,
+      "p90_ms": 3.290075799989723,
+      "min_ms": 1.3342889999989893,
+      "max_ms": 4.762060000018664
+    },
+    "depth_npy_write": {
+      "mean_ms": 0.5765628999995442,
+      "median_ms": 0.5605534999801876,
+      "p90_ms": 0.6412213999908547,
+      "min_ms": 0.4783739999822956,
+      "max_ms": 0.8544750000112344
+    },
+    "mask_png_write": {
+      "mean_ms": 0.753121649999855,
+      "median_ms": 0.6252589999888869,
+      "p90_ms": 1.0891713000006584,
+      "min_ms": 0.5687249999937194,
+      "max_ms": 1.757980999997244
+    },
+    "valid_depth_ratio": 1.0,
+    "rgb_shape": [
+      384,
+      512,
+      3
+    ],
+    "depth_shape": [
+      384,
+      512
+    ],
+    "tmp_dir": "/tmp/pilot_render_timing_oo40om1y"
+  }
+]

@@ -1,0 +1,4656 @@
+{
+  "frame_records": [
+    {
+      "depth": "depth/000000.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000000",
+      "image": "images/000000.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.21668836805555555,
+        "height_variation": 1.2435507774353027,
+        "landcover_score": 1.524108713203006,
+        "road_like_ratio": 0.5103081597222222,
+        "vegetation_ratio": 0.4820963541666667
+      },
+      "mask": "masks/000000.png",
+      "raster_xy_ground_z": [
+        254788.64145851522,
+        3363802.653114902,
+        8.80508783802661
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 17988.978204000006,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44817259182538,
+        30.381318859956533,
+        88.80508783802661
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000001.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000001",
+      "image": "images/000001.jpg",
+      "landcover_metrics": {
+        "building_density": 0.007080078125,
+        "edge_density": 0.21875,
+        "height_variation": 1.225381851196289,
+        "landcover_score": 1.5309377193450926,
+        "road_like_ratio": 0.5048828125,
+        "vegetation_ratio": 0.4878472222222222
+      },
+      "mask": "masks/000001.png",
+      "raster_xy_ground_z": [
+        254789.12931817435,
+        3363803.526036979,
+        8.853709798976963
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3564453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 178.30574399999932,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44817745999086,
+        30.381326828573513,
+        88.85370979897696
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000002.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000002",
+      "image": "images/000002.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.2163628472222222,
+        "height_variation": 1.2199673652648926,
+        "landcover_score": 1.5265049391322667,
+        "road_like_ratio": 0.509765625,
+        "vegetation_ratio": 0.4837239583333333
+      },
+      "mask": "masks/000002.png",
+      "raster_xy_ground_z": [
+        254789.61717783348,
+        3363804.3989590565,
+        8.933901533836387
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 141.97757899999885,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4481823281571,
+        30.381334797190345,
+        88.93390153383639
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000003.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000003",
+      "image": "images/000003.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00732421875,
+        "edge_density": 0.2103949652777778,
+        "height_variation": 1.2261362075805664,
+        "landcover_score": 1.5252819246715967,
+        "road_like_ratio": 0.5123697916666666,
+        "vegetation_ratio": 0.4817708333333333
+      },
+      "mask": "masks/000003.png",
+      "raster_xy_ground_z": [
+        254790.10503749264,
+        3363805.2718811333,
+        8.865258530215531
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.40051800000685,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44818719632411,
+        30.381342765807037,
+        88.86525853021553
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000004.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000004",
+      "image": "images/000004.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008056640625,
+        "edge_density": 0.20703125,
+        "height_variation": 1.224501132965088,
+        "landcover_score": 1.5262071331342062,
+        "road_like_ratio": 0.5075954861111112,
+        "vegetation_ratio": 0.4867621527777778
+      },
+      "mask": "masks/000004.png",
+      "raster_xy_ground_z": [
+        254790.59289715177,
+        3363806.1448032106,
+        8.798554939231906
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 150.20458899999767,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44819206449188,
+        30.381350734423574,
+        88.7985549392319
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000005.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000005",
+      "image": "images/000005.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.21484375,
+        "height_variation": 1.2340736389160156,
+        "landcover_score": 1.5269932111104327,
+        "road_like_ratio": 0.5131293402777778,
+        "vegetation_ratio": 0.4820963541666667
+      },
+      "mask": "masks/000005.png",
+      "raster_xy_ground_z": [
+        254791.0807568109,
+        3363807.017725288,
+        8.815899759786694
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3564453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 167.80417799999725,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44819693266038,
+        30.38135870303998,
+        88.81589975978669
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000006.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000006",
+      "image": "images/000006.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0078125,
+        "edge_density": 0.22645399305555555,
+        "height_variation": 1.2461495399475098,
+        "landcover_score": 1.5320841087235342,
+        "road_like_ratio": 0.5130208333333334,
+        "vegetation_ratio": 0.4822048611111111
+      },
+      "mask": "masks/000006.png",
+      "raster_xy_ground_z": [
+        254791.56861647006,
+        3363807.8906473652,
+        8.831796030806156
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 167.20138300000542,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44820180082964,
+        30.381366671656238,
+        88.83179603080616
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000007.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000007",
+      "image": "images/000007.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008056640625,
+        "edge_density": 0.2212456597222222,
+        "height_variation": 1.26641845703125,
+        "landcover_score": 1.5278501722547746,
+        "road_like_ratio": 0.5174696180555556,
+        "vegetation_ratio": 0.478515625
+      },
+      "mask": "masks/000007.png",
+      "raster_xy_ground_z": [
+        254792.0564761292,
+        3363808.7635694426,
+        8.841628648739169
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 131.78193500000646,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44820666899966,
+        30.38137464027234,
+        88.84162864873917
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000008.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000008",
+      "image": "images/000008.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0078125,
+        "edge_density": 0.2287326388888889,
+        "height_variation": 1.2710886001586914,
+        "landcover_score": 1.528726257218255,
+        "road_like_ratio": 0.5190972222222222,
+        "vegetation_ratio": 0.4761284722222222
+      },
+      "mask": "masks/000008.png",
+      "raster_xy_ground_z": [
+        254792.54433578832,
+        3363809.63649152,
+        8.835804310649147
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.11892599999942,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44821153717045,
+        30.381382608888313,
+        88.83580431064915
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000009.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000009",
+      "image": "images/000009.jpg",
+      "landcover_metrics": {
+        "building_density": 0.007080078125,
+        "edge_density": 0.21419270833333334,
+        "height_variation": 1.3021316528320312,
+        "landcover_score": 1.5219226201375324,
+        "road_like_ratio": 0.5198567708333334,
+        "vegetation_ratio": 0.4749348958333333
+      },
+      "mask": "masks/000009.png",
+      "raster_xy_ground_z": [
+        254793.03219544748,
+        3363810.509413597,
+        8.871415943496142
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 156.09058799999787,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44821640534198,
+        30.38139057750412,
+        88.87141594349615
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000010.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000010",
+      "image": "images/000010.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0078125,
+        "edge_density": 0.2328559027777778,
+        "height_variation": 1.3572258949279785,
+        "landcover_score": 1.528417442904578,
+        "road_like_ratio": 0.5210503472222222,
+        "vegetation_ratio": 0.4749348958333333
+      },
+      "mask": "masks/000010.png",
+      "raster_xy_ground_z": [
+        254793.5200551066,
+        3363811.3823356745,
+        9.048853858451633
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.63555599999654,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44822127351428,
+        30.3813985461198,
+        89.04885385845164
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000011.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000011",
+      "image": "images/000011.jpg",
+      "landcover_metrics": {
+        "building_density": 0.007080078125,
+        "edge_density": 0.24479166666666666,
+        "height_variation": 1.3813700675964355,
+        "landcover_score": 1.5302281181017556,
+        "road_like_ratio": 0.5224609375,
+        "vegetation_ratio": 0.4721137152777778
+      },
+      "mask": "masks/000011.png",
+      "raster_xy_ground_z": [
+        254794.00791476574,
+        3363812.255257752,
+        8.889791841456049
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.82194800000013,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44822614168733,
+        30.38140651473533,
+        88.88979184145605
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000012.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000012",
+      "image": "images/000012.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.236328125,
+        "height_variation": 1.4233837127685547,
+        "landcover_score": 1.5279245217641193,
+        "road_like_ratio": 0.5186631944444444,
+        "vegetation_ratio": 0.4767795138888889
+      },
+      "mask": "masks/000012.png",
+      "raster_xy_ground_z": [
+        254794.49577442487,
+        3363813.128179829,
+        8.842573743109313
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 134.06021099999066,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44823100986113,
+        30.381414483350714,
+        88.84257374310931
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000013.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000013",
+      "image": "images/000013.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.24034288194444445,
+        "height_variation": 1.4675946235656738,
+        "landcover_score": 1.528473979896969,
+        "road_like_ratio": 0.5167100694444444,
+        "vegetation_ratio": 0.4782986111111111
+      },
+      "mask": "masks/000013.png",
+      "raster_xy_ground_z": [
+        254794.98363408403,
+        3363814.0011019064,
+        8.979577009560048
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 163.57948499999964,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44823587803567,
+        30.381422451965946,
+        88.97957700956005
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000014.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000014",
+      "image": "images/000014.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.23502604166666666,
+        "height_variation": 1.500230312347412,
+        "landcover_score": 1.5264590859413145,
+        "road_like_ratio": 0.5189887152777778,
+        "vegetation_ratio": 0.4771050347222222
+      },
+      "mask": "masks/000014.png",
+      "raster_xy_ground_z": [
+        254795.47149374316,
+        3363814.8740239837,
+        8.941334269117965
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 139.06423699999948,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.448240746211,
+        30.381430420581037,
+        88.94133426911796
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000015.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000015",
+      "image": "images/000015.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00927734375,
+        "edge_density": 0.2314453125,
+        "height_variation": 1.5685596466064453,
+        "landcover_score": 1.523578977584839,
+        "road_like_ratio": 0.517578125,
+        "vegetation_ratio": 0.4789496527777778
+      },
+      "mask": "masks/000015.png",
+      "raster_xy_ground_z": [
+        254795.9593534023,
+        3363815.7469460606,
+        8.798480875045264
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 168.38415200000156,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44824561438706,
+        30.38143838919598,
+        88.79848087504527
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000016.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000016",
+      "image": "images/000016.jpg",
+      "landcover_metrics": {
+        "building_density": 0.010009765625,
+        "edge_density": 0.23795572916666666,
+        "height_variation": 1.558882713317871,
+        "landcover_score": 1.52442311445872,
+        "road_like_ratio": 0.5166015625,
+        "vegetation_ratio": 0.4790581597222222
+      },
+      "mask": "masks/000016.png",
+      "raster_xy_ground_z": [
+        254796.44721306144,
+        3363816.619868138,
+        8.812802825028706
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.5538279999895,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44825048256389,
+        30.381446357810777,
+        88.81280282502871
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000017.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000017",
+      "image": "images/000017.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2238498263888889,
+        "height_variation": 1.5469136238098145,
+        "landcover_score": 1.52122841808531,
+        "road_like_ratio": 0.5172526041666666,
+        "vegetation_ratio": 0.4790581597222222
+      },
+      "mask": "masks/000017.png",
+      "raster_xy_ground_z": [
+        254796.93507272057,
+        3363817.492790215,
+        8.870917824587002
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 128.62389599999347,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44825535074148,
+        30.38145432642544,
+        88.870917824587
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000018.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000018",
+      "image": "images/000018.jpg",
+      "landcover_metrics": {
+        "building_density": 0.010009765625,
+        "edge_density": 0.23328993055555555,
+        "height_variation": 1.54642915725708,
+        "landcover_score": 1.5218264672491288,
+        "road_like_ratio": 0.5222439236111112,
+        "vegetation_ratio": 0.4747178819444444
+      },
+      "mask": "masks/000018.png",
+      "raster_xy_ground_z": [
+        254797.4229323797,
+        3363818.3657122925,
+        8.876762737859384
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 295.0696730000004,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4482602189198,
+        30.38146229503995,
+        88.87676273785938
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000019.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000019",
+      "image": "images/000019.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0087890625,
+        "edge_density": 0.2309027777777778,
+        "height_variation": 1.5275802612304688,
+        "landcover_score": 1.5216195212470158,
+        "road_like_ratio": 0.5236545138888888,
+        "vegetation_ratio": 0.4729817708333333
+      },
+      "mask": "masks/000019.png",
+      "raster_xy_ground_z": [
+        254797.91079203886,
+        3363819.23863437,
+        8.824850523139347
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 171.21576199998856,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44826508709889,
+        30.381470263654318,
+        88.82485052313935
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000020.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000020",
+      "image": "images/000020.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0087890625,
+        "edge_density": 0.2361111111111111,
+        "height_variation": 1.4761319160461426,
+        "landcover_score": 1.5261609382099577,
+        "road_like_ratio": 0.5252821180555556,
+        "vegetation_ratio": 0.4725477430555556
+      },
+      "mask": "masks/000020.png",
+      "raster_xy_ground_z": [
+        254798.398651698,
+        3363820.111556447,
+        8.833191239849164
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 173.22863200000427,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44826995527875,
+        30.381478232268528,
+        88.83319123984916
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000021.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000021",
+      "image": "images/000021.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00927734375,
+        "edge_density": 0.2429470486111111,
+        "height_variation": 1.4773550033569336,
+        "landcover_score": 1.5235587464438543,
+        "road_like_ratio": 0.5313585069444444,
+        "vegetation_ratio": 0.4659288194444444
+      },
+      "mask": "masks/000021.png",
+      "raster_xy_ground_z": [
+        254798.88651135712,
+        3363820.9844785244,
+        8.975316567005196
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 143.4535620000048,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44827482345934,
+        30.381486200882616,
+        88.9753165670052
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000022.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000022",
+      "image": "images/000022.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008056640625,
+        "edge_density": 0.23546006944444445,
+        "height_variation": 1.4680242538452148,
+        "landcover_score": 1.523808291223314,
+        "road_like_ratio": 0.5327690972222222,
+        "vegetation_ratio": 0.4657118055555556
+      },
+      "mask": "masks/000022.png",
+      "raster_xy_ground_z": [
+        254799.37437101628,
+        3363821.8574006017,
+        9.03668523155614
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.09613999999704,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4482796916407,
+        30.38149416949654,
+        89.03668523155613
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000023.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000023",
+      "image": "images/000023.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.23828125,
+        "height_variation": 1.4720573425292969,
+        "landcover_score": 1.522492186228434,
+        "road_like_ratio": 0.5334201388888888,
+        "vegetation_ratio": 0.4647352430555556
+      },
+      "mask": "masks/000023.png",
+      "raster_xy_ground_z": [
+        254799.8622306754,
+        3363822.730322679,
+        9.011715572838895
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2294921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 130.85251600000447,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44828455982282,
+        30.38150213811033,
+        89.0117155728389
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000024.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000024",
+      "image": "images/000024.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.23643663194444445,
+        "height_variation": 1.4331932067871094,
+        "landcover_score": 1.5215377913580999,
+        "road_like_ratio": 0.5377604166666666,
+        "vegetation_ratio": 0.4606119791666667
+      },
+      "mask": "masks/000024.png",
+      "raster_xy_ground_z": [
+        254800.35009033454,
+        3363823.6032447563,
+        8.902066278314322
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 149.10489600001142,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4482894280057,
+        30.38151010672396,
+        88.90206627831432
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000025.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000025",
+      "image": "images/000025.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.24088541666666666,
+        "height_variation": 1.4359140396118164,
+        "landcover_score": 1.5214751958847048,
+        "road_like_ratio": 0.5375434027777778,
+        "vegetation_ratio": 0.4599609375
+      },
+      "mask": "masks/000025.png",
+      "raster_xy_ground_z": [
+        254800.83794999367,
+        3363824.4761668337,
+        8.92240480425463
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 145.99204700000712,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44829429618932,
+        30.381518075337464,
+        88.92240480425463
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000026.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000026",
+      "image": "images/000026.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.232421875,
+        "height_variation": 1.4586610794067383,
+        "landcover_score": 1.5156656344731647,
+        "road_like_ratio": 0.5372178819444444,
+        "vegetation_ratio": 0.4595269097222222
+      },
+      "mask": "masks/000026.png",
+      "raster_xy_ground_z": [
+        254801.32580965283,
+        3363825.3490889105,
+        9.106221720483688
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2197265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 146.30002799999886,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44829916437371,
+        30.381526043950803,
+        89.10622172048369
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000027.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000027",
+      "image": "images/000027.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0078125,
+        "edge_density": 0.23763020833333334,
+        "height_variation": 1.4406542778015137,
+        "landcover_score": 1.5202336430549621,
+        "road_like_ratio": 0.5366753472222222,
+        "vegetation_ratio": 0.4600694444444444
+      },
+      "mask": "masks/000027.png",
+      "raster_xy_ground_z": [
+        254801.81366931196,
+        3363826.222010988,
+        9.274707132525975
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 196.4537129999968,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44830403255885,
+        30.381534012564003,
+        89.27470713252598
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000028.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000028",
+      "image": "images/000028.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2404513888888889,
+        "height_variation": 1.4340324401855469,
+        "landcover_score": 1.5160426351759166,
+        "road_like_ratio": 0.5364583333333334,
+        "vegetation_ratio": 0.4581163194444444
+      },
+      "mask": "masks/000028.png",
+      "raster_xy_ground_z": [
+        254802.3015289711,
+        3363827.094933065,
+        9.046150081363981
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 314.9088219999925,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44830890074475,
+        30.38154198117706,
+        89.04615008136398
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000029.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000029",
+      "image": "images/000029.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.2417534722222222,
+        "height_variation": 1.4311847686767578,
+        "landcover_score": 1.51922255092197,
+        "road_like_ratio": 0.5364583333333334,
+        "vegetation_ratio": 0.458984375
+      },
+      "mask": "masks/000029.png",
+      "raster_xy_ground_z": [
+        254802.78938863025,
+        3363827.9678551424,
+        9.02963110661913
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 214.00070700001095,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44831376893138,
+        30.38154994978997,
+        89.02963110661914
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000030.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000030",
+      "image": "images/000030.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008056640625,
+        "edge_density": 0.24012586805555555,
+        "height_variation": 1.4075827598571777,
+        "landcover_score": 1.5174200230174595,
+        "road_like_ratio": 0.5370008680555556,
+        "vegetation_ratio": 0.4574652777777778
+      },
+      "mask": "masks/000030.png",
+      "raster_xy_ground_z": [
+        254803.27724828938,
+        3363828.8407772197,
+        8.973493243376245
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 158.05562500000292,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4483186371188,
+        30.381557918402738,
+        88.97349324337624
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000031.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000031",
+      "image": "images/000031.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00830078125,
+        "edge_density": 0.23860677083333334,
+        "height_variation": 1.3584375381469727,
+        "landcover_score": 1.516852863629659,
+        "road_like_ratio": 0.5341796875,
+        "vegetation_ratio": 0.4588758680555556
+      },
+      "mask": "masks/000031.png",
+      "raster_xy_ground_z": [
+        254803.7651079485,
+        3363829.713699297,
+        8.90324423563752
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 148.63401299999168,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44832350530696,
+        30.381565887015363,
+        88.90324423563752
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000032.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000032",
+      "image": "images/000032.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00732421875,
+        "edge_density": 0.24641927083333334,
+        "height_variation": 1.3719029426574707,
+        "landcover_score": 1.5208131035168966,
+        "road_like_ratio": 0.533203125,
+        "vegetation_ratio": 0.4594184027777778
+      },
+      "mask": "masks/000032.png",
+      "raster_xy_ground_z": [
+        254804.25296760767,
+        3363830.5866213744,
+        8.862925182755394
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 184.75335399999437,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44832837349588,
+        30.381573855627845,
+        88.86292518275539
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000033.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000033",
+      "image": "images/000033.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.2416449652777778,
+        "height_variation": 1.337259292602539,
+        "landcover_score": 1.514935488171048,
+        "road_like_ratio": 0.5335286458333334,
+        "vegetation_ratio": 0.4574652777777778
+      },
+      "mask": "masks/000033.png",
+      "raster_xy_ground_z": [
+        254804.7408272668,
+        3363831.4595434517,
+        8.760655489041966
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 147.03303400000323,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44833324168555,
+        30.381581824240172,
+        88.76065548904197
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000034.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000034",
+      "image": "images/000034.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0087890625,
+        "edge_density": 0.24088541666666666,
+        "height_variation": 1.3101286888122559,
+        "landcover_score": 1.5159446994463606,
+        "road_like_ratio": 0.5296223958333334,
+        "vegetation_ratio": 0.4606119791666667
+      },
+      "mask": "masks/000034.png",
+      "raster_xy_ground_z": [
+        254805.22868692593,
+        3363832.332465529,
+        8.83221994780397
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 173.16649599999323,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44833810987598,
+        30.38158979285236,
+        88.83221994780396
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000035.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000035",
+      "image": "images/000035.jpg",
+      "landcover_metrics": {
+        "building_density": 0.010009765625,
+        "edge_density": 0.2517361111111111,
+        "height_variation": 1.34171724319458,
+        "landcover_score": 1.52013002898958,
+        "road_like_ratio": 0.5247395833333334,
+        "vegetation_ratio": 0.4651692708333333
+      },
+      "mask": "masks/000035.png",
+      "raster_xy_ground_z": [
+        254805.71654658508,
+        3363833.2053876063,
+        8.794019198812416
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 178.50170500000218,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44834297806717,
+        30.381597761464405,
+        88.79401919881242
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000036.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000036",
+      "image": "images/000036.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01123046875,
+        "edge_density": 0.248046875,
+        "height_variation": 1.3588414192199707,
+        "landcover_score": 1.5130667249361673,
+        "road_like_ratio": 0.5269097222222222,
+        "vegetation_ratio": 0.4618055555555556
+      },
+      "mask": "masks/000036.png",
+      "raster_xy_ground_z": [
+        254806.20440624421,
+        3363834.0783096836,
+        8.796166016611886
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2685546875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 146.05583200000183,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4483478462591,
+        30.3816057300763,
+        88.79616601661189
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000037.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000037",
+      "image": "images/000037.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0107421875,
+        "edge_density": 0.2458767361111111,
+        "height_variation": 1.3456134796142578,
+        "landcover_score": 1.5113900449540882,
+        "road_like_ratio": 0.5237630208333334,
+        "vegetation_ratio": 0.462890625
+      },
+      "mask": "masks/000037.png",
+      "raster_xy_ground_z": [
+        254806.69226590334,
+        3363834.951231761,
+        8.873258038086933
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 175.2509689999897,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44835271445179,
+        30.38161369868805,
+        88.87325803808693
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000038.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000038",
+      "image": "images/000038.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01318359375,
+        "edge_density": 0.2358940972222222,
+        "height_variation": 1.3612709045410156,
+        "landcover_score": 1.500788105858697,
+        "road_like_ratio": 0.5258246527777778,
+        "vegetation_ratio": 0.4599609375
+      },
+      "mask": "masks/000038.png",
+      "raster_xy_ground_z": [
+        254807.18012556247,
+        3363835.8241538377,
+        9.009477061541913
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 141.65259099999616,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44835758264524,
+        30.381621667299637,
+        89.00947706154192
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000039.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000039",
+      "image": "images/000039.jpg",
+      "landcover_metrics": {
+        "building_density": 0.013916015625,
+        "edge_density": 0.23231336805555555,
+        "height_variation": 1.34340238571167,
+        "landcover_score": 1.499883907371097,
+        "road_like_ratio": 0.5223524305555556,
+        "vegetation_ratio": 0.462890625
+      },
+      "mask": "masks/000039.png",
+      "raster_xy_ground_z": [
+        254807.66798522163,
+        3363836.697075915,
+        9.122735559775522
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2587890625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 165.9946559999952,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44836245083945,
+        30.3816296359111,
+        89.12273555977552
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000040.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000040",
+      "image": "images/000040.jpg",
+      "landcover_metrics": {
+        "building_density": 0.013916015625,
+        "edge_density": 0.24207899305555555,
+        "height_variation": 1.406604290008545,
+        "landcover_score": 1.4976528180970086,
+        "road_like_ratio": 0.5218098958333334,
+        "vegetation_ratio": 0.4607204861111111
+      },
+      "mask": "masks/000040.png",
+      "raster_xy_ground_z": [
+        254808.15584488076,
+        3363837.5699979924,
+        9.472772001606412
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2783203125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 189.41736399999343,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44836731903442,
+        30.381637604522428,
+        89.47277200160642
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000041.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000041",
+      "image": "images/000041.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016357421875,
+        "edge_density": 0.2431640625,
+        "height_variation": 1.3956561088562012,
+        "landcover_score": 1.4936404983202614,
+        "road_like_ratio": 0.5269097222222222,
+        "vegetation_ratio": 0.4565972222222222
+      },
+      "mask": "masks/000041.png",
+      "raster_xy_ground_z": [
+        254808.6437045399,
+        3363838.4429200697,
+        9.562614903167518
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3076171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 159.485470000007,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44837218723013,
+        30.381645573133582,
+        89.56261490316751
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000042.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000042",
+      "image": "images/000042.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015625,
+        "edge_density": 0.2404513888888889,
+        "height_variation": 1.4081530570983887,
+        "landcover_score": 1.492942874961429,
+        "road_like_ratio": 0.5245225694444444,
+        "vegetation_ratio": 0.4580078125
+      },
+      "mask": "masks/000042.png",
+      "raster_xy_ground_z": [
+        254809.13156419905,
+        3363839.315842147,
+        9.463399945028646
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.0927734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 162.96320600000058,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4483770554266,
+        30.381653541744612,
+        89.46339994502864
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000043.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000043",
+      "image": "images/000043.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01611328125,
+        "edge_density": 0.2398003472222222,
+        "height_variation": 1.4736065864562988,
+        "landcover_score": 1.4861958596441482,
+        "road_like_ratio": 0.5272352430555556,
+        "vegetation_ratio": 0.4538845486111111
+      },
+      "mask": "masks/000043.png",
+      "raster_xy_ground_z": [
+        254809.61942385818,
+        3363840.1887642243,
+        9.367972024468827
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 146.90671500000008,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44838192362384,
+        30.38166151035549,
+        89.36797202446883
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000044.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000044",
+      "image": "images/000044.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01708984375,
+        "edge_density": 0.2419704861111111,
+        "height_variation": 1.448338508605957,
+        "landcover_score": 1.485807596312629,
+        "road_like_ratio": 0.5254991319444444,
+        "vegetation_ratio": 0.4547526041666667
+      },
+      "mask": "masks/000044.png",
+      "raster_xy_ground_z": [
+        254810.1072835173,
+        3363841.0616863016,
+        9.286001934435461
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 129.15836000000525,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44838679182183,
+        30.381669478966227,
+        89.28600193443546
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000045.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000045",
+      "image": "images/000045.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0166015625,
+        "edge_density": 0.24913194444444445,
+        "height_variation": 1.4978227615356445,
+        "landcover_score": 1.4883790837393869,
+        "road_like_ratio": 0.5260416666666666,
+        "vegetation_ratio": 0.4545355902777778
+      },
+      "mask": "masks/000045.png",
+      "raster_xy_ground_z": [
+        254810.59514317647,
+        3363841.934608379,
+        9.274674349743535
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 175.00281200000245,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44839166002058,
+        30.381677447576816,
+        89.27467434974353
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000046.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000046",
+      "image": "images/000046.jpg",
+      "landcover_metrics": {
+        "building_density": 0.017578125,
+        "edge_density": 0.23817274305555555,
+        "height_variation": 1.5338773727416992,
+        "landcover_score": 1.478341433737013,
+        "road_like_ratio": 0.5294053819444444,
+        "vegetation_ratio": 0.4504123263888889
+      },
+      "mask": "masks/000046.png",
+      "raster_xy_ground_z": [
+        254811.0830028356,
+        3363842.807530456,
+        9.146390148605898
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 160.2238939999978,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44839652822007,
+        30.38168541618726,
+        89.1463901486059
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000047.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000047",
+      "image": "images/000047.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0166015625,
+        "edge_density": 0.2421875,
+        "height_variation": 1.5150833129882812,
+        "landcover_score": 1.4825005213419598,
+        "road_like_ratio": 0.5278862847222222,
+        "vegetation_ratio": 0.4518229166666667
+      },
+      "mask": "masks/000047.png",
+      "raster_xy_ground_z": [
+        254811.57086249473,
+        3363843.6804525335,
+        9.111685608127473
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3076171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.91107800000646,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44840139642032,
+        30.381693384797547,
+        89.11168560812747
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000048.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000048",
+      "image": "images/000048.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016845703125,
+        "edge_density": 0.24153645833333334,
+        "height_variation": 1.5709114074707031,
+        "landcover_score": 1.4769869804382325,
+        "road_like_ratio": 0.5337456597222222,
+        "vegetation_ratio": 0.4459635416666667
+      },
+      "mask": "masks/000048.png",
+      "raster_xy_ground_z": [
+        254812.0587221539,
+        3363844.553374611,
+        9.191662950859133
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 143.0457999999959,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44840626462134,
+        30.381701353407703,
+        89.19166295085913
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000049.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000049",
+      "image": "images/000049.jpg",
+      "landcover_metrics": {
+        "building_density": 0.017578125,
+        "edge_density": 0.2404513888888889,
+        "height_variation": 1.5544095039367676,
+        "landcover_score": 1.4784791721238029,
+        "road_like_ratio": 0.5295138888888888,
+        "vegetation_ratio": 0.4501953125
+      },
+      "mask": "masks/000049.png",
+      "raster_xy_ground_z": [
+        254812.54658181302,
+        3363845.426296688,
+        9.094013076008672
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2294921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 276.2109999999893,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4484111328231,
+        30.381709322017716,
+        89.09401307600868
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000050.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000050",
+      "image": "images/000050.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016357421875,
+        "edge_density": 0.2349175347222222,
+        "height_variation": 1.5612645149230957,
+        "landcover_score": 1.4757199062241448,
+        "road_like_ratio": 0.5336371527777778,
+        "vegetation_ratio": 0.4462890625
+      },
+      "mask": "masks/000050.png",
+      "raster_xy_ground_z": [
+        254813.03444147215,
+        3363846.299218765,
+        9.121130259068211
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3271484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 158.29109999999957,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44841600102562,
+        30.381717290627563,
+        89.12113025906821
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000051.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000051",
+      "image": "images/000051.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016845703125,
+        "edge_density": 0.23936631944444445,
+        "height_variation": 1.5599656105041504,
+        "landcover_score": 1.4731373614735073,
+        "road_like_ratio": 0.5349392361111112,
+        "vegetation_ratio": 0.443359375
+      },
+      "mask": "masks/000051.png",
+      "raster_xy_ground_z": [
+        254813.52230113128,
+        3363847.1721408423,
+        9.26044313478179
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3173828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 154.2476999999991,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4484208692289,
+        30.38172525923728,
+        89.2604431347818
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000052.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000052",
+      "image": "images/000052.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016845703125,
+        "edge_density": 0.24131944444444445,
+        "height_variation": 1.5400652885437012,
+        "landcover_score": 1.4752624736891853,
+        "road_like_ratio": 0.5374348958333334,
+        "vegetation_ratio": 0.4421657986111111
+      },
+      "mask": "masks/000052.png",
+      "raster_xy_ground_z": [
+        254814.01016079044,
+        3363848.0450629196,
+        9.406327891262272
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2099609375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 188.03139999999985,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44842573743294,
+        30.38173322784686,
+        89.40632789126226
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000053.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000053",
+      "image": "images/000053.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0166015625,
+        "edge_density": 0.24110243055555555,
+        "height_variation": 1.5893926620483398,
+        "landcover_score": 1.4723962598376803,
+        "road_like_ratio": 0.5415581597222222,
+        "vegetation_ratio": 0.4383680555555556
+      },
+      "mask": "masks/000053.png",
+      "raster_xy_ground_z": [
+        254814.49802044957,
+        3363848.917984997,
+        9.460553179391034
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3076171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 141.66869999999676,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44843060563771,
+        30.38174119645628,
+        89.46055317939104
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000054.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000054",
+      "image": "images/000054.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01708984375,
+        "edge_density": 0.24674479166666666,
+        "height_variation": 1.5824627876281738,
+        "landcover_score": 1.4744032740592958,
+        "road_like_ratio": 0.5407986111111112,
+        "vegetation_ratio": 0.4390190972222222
+      },
+      "mask": "masks/000054.png",
+      "raster_xy_ground_z": [
+        254814.9858801087,
+        3363849.790907074,
+        9.393438663496774
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 161.70029999999258,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44843547384326,
+        30.38174916506556,
+        89.39343866349677
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000055.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000055",
+      "image": "images/000055.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01611328125,
+        "edge_density": 0.23990885416666666,
+        "height_variation": 1.588876724243164,
+        "landcover_score": 1.470531988143921,
+        "road_like_ratio": 0.5450303819444444,
+        "vegetation_ratio": 0.4348958333333333
+      },
+      "mask": "masks/000055.png",
+      "raster_xy_ground_z": [
+        254815.47373976785,
+        3363850.6638291515,
+        9.456632405047136
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3662109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 145.2270999999996,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44844034204957,
+        30.3817571336747,
+        89.45663240504713
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000056.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000056",
+      "image": "images/000056.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0166015625,
+        "edge_density": 0.2329644097222222,
+        "height_variation": 1.6158661842346191,
+        "landcover_score": 1.4656146301163568,
+        "road_like_ratio": 0.5456814236111112,
+        "vegetation_ratio": 0.4340277777777778
+      },
+      "mask": "masks/000056.png",
+      "raster_xy_ground_z": [
+        254815.96159942698,
+        3363851.536751229,
+        9.364764500739847
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3564453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 182.99620000000516,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44844521025661,
+        30.381765102283687,
+        89.36476450073985
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000057.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000057",
+      "image": "images/000057.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016357421875,
+        "edge_density": 0.2377387152777778,
+        "height_variation": 1.604231357574463,
+        "landcover_score": 1.4657481657134162,
+        "road_like_ratio": 0.5490451388888888,
+        "vegetation_ratio": 0.4304470486111111
+      },
+      "mask": "masks/000057.png",
+      "raster_xy_ground_z": [
+        254816.4494590861,
+        3363852.409673306,
+        8.898215335315017
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3564453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 186.16200000001015,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44845007846443,
+        30.381773070892528,
+        88.89821533531502
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000058.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000058",
+      "image": "images/000058.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016357421875,
+        "edge_density": 0.24837239583333334,
+        "height_variation": 1.6367907524108887,
+        "landcover_score": 1.4695131738980611,
+        "road_like_ratio": 0.5475260416666666,
+        "vegetation_ratio": 0.431640625
+      },
+      "mask": "masks/000058.png",
+      "raster_xy_ground_z": [
+        254816.93731874527,
+        3363853.2825953835,
+        8.833283667333946
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3662109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 226.64659999999515,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.448454946673,
+        30.381781039501234,
+        88.83328366733394
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000059.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000059",
+      "image": "images/000059.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016845703125,
+        "edge_density": 0.2446831597222222,
+        "height_variation": 1.625269889831543,
+        "landcover_score": 1.4658189906014334,
+        "road_like_ratio": 0.5489366319444444,
+        "vegetation_ratio": 0.4296875
+      },
+      "mask": "masks/000059.png",
+      "raster_xy_ground_z": [
+        254817.4251784044,
+        3363854.155517461,
+        9.299599553144109
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2978515625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 166.41499199999998,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44845981488231,
+        30.381789008109784,
+        89.2995995531441
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000060.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000060",
+      "image": "images/000060.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01611328125,
+        "edge_density": 0.24446614583333334,
+        "height_variation": 1.6121721267700195,
+        "landcover_score": 1.4671501239140832,
+        "road_like_ratio": 0.5491536458333334,
+        "vegetation_ratio": 0.4295789930555556
+      },
+      "mask": "masks/000060.png",
+      "raster_xy_ground_z": [
+        254817.91303806353,
+        3363855.028439538,
+        9.06118561061596
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3466796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 175.14741200000117,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4484646830924,
+        30.3817969767182,
+        89.06118561061596
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000061.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000061",
+      "image": "images/000061.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0166015625,
+        "edge_density": 0.2435980902777778,
+        "height_variation": 1.6101770401000977,
+        "landcover_score": 1.464020747608609,
+        "road_like_ratio": 0.5478515625,
+        "vegetation_ratio": 0.4292534722222222
+      },
+      "mask": "masks/000061.png",
+      "raster_xy_ground_z": [
+        254818.4008977227,
+        3363855.9013616154,
+        9.05430237099501
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3076171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.60230300000842,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44846955130323,
+        30.381804945326454,
+        89.054302370995
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000062.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000062",
+      "image": "images/000062.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015869140625,
+        "edge_density": 0.24967447916666666,
+        "height_variation": 1.5982165336608887,
+        "landcover_score": 1.4589866439501444,
+        "road_like_ratio": 0.5550130208333334,
+        "vegetation_ratio": 0.4195963541666667
+      },
+      "mask": "masks/000062.png",
+      "raster_xy_ground_z": [
+        254818.88875738182,
+        3363856.7742836922,
+        9.563146875466629
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3369140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.90748299999223,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44847441951482,
+        30.38181291393457,
+        89.56314687546663
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000063.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000063",
+      "image": "images/000063.jpg",
+      "landcover_metrics": {
+        "building_density": 0.014404296875,
+        "edge_density": 0.2384982638888889,
+        "height_variation": 1.6125526428222656,
+        "landcover_score": 1.4541252030266651,
+        "road_like_ratio": 0.5549045138888888,
+        "vegetation_ratio": 0.4185112847222222
+      },
+      "mask": "masks/000063.png",
+      "raster_xy_ground_z": [
+        254819.37661704095,
+        3363857.6472057696,
+        9.510275006129179
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.2490234375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 144.40622899999767,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44847928772717,
+        30.38182088254254,
+        89.51027500612918
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000064.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000064",
+      "image": "images/000064.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015625,
+        "edge_density": 0.2523871527777778,
+        "height_variation": 1.5820999145507812,
+        "landcover_score": 1.4512461132473413,
+        "road_like_ratio": 0.5608723958333334,
+        "vegetation_ratio": 0.4103732638888889
+      },
+      "mask": "masks/000064.png",
+      "raster_xy_ground_z": [
+        254819.86447670008,
+        3363858.520127847,
+        9.287967328513101
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 134.21530300000484,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44848415594028,
+        30.38182885115037,
+        89.2879673285131
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000065.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000065",
+      "image": "images/000065.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01513671875,
+        "edge_density": 0.2384982638888889,
+        "height_variation": 1.575139045715332,
+        "landcover_score": 1.4419908814960056,
+        "road_like_ratio": 0.5632595486111112,
+        "vegetation_ratio": 0.40625
+      },
+      "mask": "masks/000065.png",
+      "raster_xy_ground_z": [
+        254820.35233635924,
+        3363859.393049924,
+        9.147376225093389
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.1806640625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 151.3245339999969,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44848902415413,
+        30.381836819758046,
+        89.14737622509338
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000066.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000066",
+      "image": "images/000066.jpg",
+      "landcover_metrics": {
+        "building_density": 0.014404296875,
+        "edge_density": 0.25,
+        "height_variation": 1.6089401245117188,
+        "landcover_score": 1.4354438145955406,
+        "road_like_ratio": 0.5759548611111112,
+        "vegetation_ratio": 0.3914930555555556
+      },
+      "mask": "masks/000066.png",
+      "raster_xy_ground_z": [
+        254820.84019601837,
+        3363860.2659720015,
+        8.931031543691159
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3662109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 145.60485400001255,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44849389236873,
+        30.381844788365584,
+        88.93103154369116
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000067.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000067",
+      "image": "images/000067.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015380859375,
+        "edge_density": 0.23936631944444445,
+        "height_variation": 1.5724825859069824,
+        "landcover_score": 1.4263075100051035,
+        "road_like_ratio": 0.5791015625,
+        "vegetation_ratio": 0.3869357638888889
+      },
+      "mask": "masks/000067.png",
+      "raster_xy_ground_z": [
+        254821.3280556775,
+        3363861.138894079,
+        8.837551585390305
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3564453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.32684800000072,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44849876058412,
+        30.381852756972975,
+        88.8375515853903
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000068.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000068",
+      "image": "images/000068.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0146484375,
+        "edge_density": 0.2368706597222222,
+        "height_variation": 1.5750079154968262,
+        "landcover_score": 1.4234720243348016,
+        "road_like_ratio": 0.5834418402777778,
+        "vegetation_ratio": 0.3824869791666667
+      },
+      "mask": "masks/000068.png",
+      "raster_xy_ground_z": [
+        254821.81591533666,
+        3363862.011816156,
+        8.822068886514879
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3759765625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 150.0967869999954,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44850362880022,
+        30.381860725580225,
+        88.82206888651488
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000069.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000069",
+      "image": "images/000069.jpg",
+      "landcover_metrics": {
+        "building_density": 0.016357421875,
+        "edge_density": 0.2621527777777778,
+        "height_variation": 1.6001133918762207,
+        "landcover_score": 1.4247703856892056,
+        "road_like_ratio": 0.5911458333333334,
+        "vegetation_ratio": 0.3741319444444444
+      },
+      "mask": "masks/000069.png",
+      "raster_xy_ground_z": [
+        254822.3037749958,
+        3363862.8847382334,
+        9.385484186213588
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3759765625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 248.52555299999324,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44850849701712,
+        30.381868694187325,
+        89.38548418621359
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000070.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000070",
+      "image": "images/000070.jpg",
+      "landcover_metrics": {
+        "building_density": 0.014404296875,
+        "edge_density": 0.2604166666666667,
+        "height_variation": 1.5558300018310547,
+        "landcover_score": 1.423490317662557,
+        "road_like_ratio": 0.5926649305555556,
+        "vegetation_ratio": 0.3706597222222222
+      },
+      "mask": "masks/000070.png",
+      "raster_xy_ground_z": [
+        254822.79163465492,
+        3363863.7576603107,
+        9.732746247900941
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 180.8490169999999,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44851336523475,
+        30.381876662794276,
+        89.73274624790093
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000071.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000071",
+      "image": "images/000071.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0146484375,
+        "edge_density": 0.2553168402777778,
+        "height_variation": 1.5542879104614258,
+        "landcover_score": 1.415092455016242,
+        "road_like_ratio": 0.5998263888888888,
+        "vegetation_ratio": 0.3625217013888889
+      },
+      "mask": "masks/000071.png",
+      "raster_xy_ground_z": [
+        254823.27949431408,
+        3363864.630582388,
+        10.000087218677297
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.15654199999483,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44851823345314,
+        30.381884631401096,
+        90.0000872186773
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000072.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000072",
+      "image": "images/000072.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01611328125,
+        "edge_density": 0.2650824652777778,
+        "height_variation": 1.5398635864257812,
+        "landcover_score": 1.4120350943671334,
+        "road_like_ratio": 0.6076388888888888,
+        "vegetation_ratio": 0.3543836805555556
+      },
+      "mask": "masks/000072.png",
+      "raster_xy_ground_z": [
+        254823.7673539732,
+        3363865.5035044653,
+        10.043478401902297
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3759765625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 143.8792200000023,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4485231016723,
+        30.381892600007752,
+        90.04347840190229
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000073.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000073",
+      "image": "images/000073.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0146484375,
+        "edge_density": 0.2616102430555556,
+        "height_variation": 1.5190625190734863,
+        "landcover_score": 1.411980034245385,
+        "road_like_ratio": 0.6087239583333334,
+        "vegetation_ratio": 0.3529730902777778
+      },
+      "mask": "masks/000073.png",
+      "raster_xy_ground_z": [
+        254824.25521363234,
+        3363866.3764265426,
+        9.891611854984292
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3662109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.04305800000327,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4485279698922,
+        30.381900568614274,
+        89.89161185498429
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000074.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000074",
+      "image": "images/000074.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015380859375,
+        "edge_density": 0.2677951388888889,
+        "height_variation": 1.5167651176452637,
+        "landcover_score": 1.4032646828227573,
+        "road_like_ratio": 0.6199001736111112,
+        "vegetation_ratio": 0.33984375
+      },
+      "mask": "masks/000074.png",
+      "raster_xy_ground_z": [
+        254824.7430732915,
+        3363867.2493486195,
+        9.894672523449339
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.36441099999718,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44853283811285,
+        30.381908537220653,
+        89.89467252344934
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000075.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000075",
+      "image": "images/000075.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015869140625,
+        "edge_density": 0.2676866319444444,
+        "height_variation": 1.5025043487548828,
+        "landcover_score": 1.403024413850572,
+        "road_like_ratio": 0.6232638888888888,
+        "vegetation_ratio": 0.3376736111111111
+      },
+      "mask": "masks/000075.png",
+      "raster_xy_ground_z": [
+        254825.23093295062,
+        3363868.122270697,
+        9.920272652895997
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 141.09635199999104,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44853770633428,
+        30.38191650582688,
+        89.920272652896
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000076.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000076",
+      "image": "images/000076.jpg",
+      "landcover_metrics": {
+        "building_density": 0.014404296875,
+        "edge_density": 0.2613932291666667,
+        "height_variation": 1.4935593605041504,
+        "landcover_score": 1.3950340628623963,
+        "road_like_ratio": 0.6316189236111112,
+        "vegetation_ratio": 0.3277994791666667
+      },
+      "mask": "masks/000076.png",
+      "raster_xy_ground_z": [
+        254825.71879260975,
+        3363868.995192774,
+        9.462756679424631
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3759765625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 130.2301959999994,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44854257455644,
+        30.38192447443296,
+        89.46275667942463
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000077.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000077",
+      "image": "images/000077.jpg",
+      "landcover_metrics": {
+        "building_density": 0.015625,
+        "edge_density": 0.2721354166666667,
+        "height_variation": 1.487170696258545,
+        "landcover_score": 1.392703545093536,
+        "road_like_ratio": 0.6338975694444444,
+        "vegetation_ratio": 0.3234592013888889
+      },
+      "mask": "masks/000077.png",
+      "raster_xy_ground_z": [
+        254826.20665226888,
+        3363869.8681148514,
+        9.10882536849201
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3662109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 154.53619999999546,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44854744277937,
+        30.381932443038888,
+        89.108825368492
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000078.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000078",
+      "image": "images/000078.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0146484375,
+        "edge_density": 0.2623697916666667,
+        "height_variation": 1.4817304611206055,
+        "landcover_score": 1.3895192384719848,
+        "road_like_ratio": 0.6400824652777778,
+        "vegetation_ratio": 0.3189019097222222
+      },
+      "mask": "masks/000078.png",
+      "raster_xy_ground_z": [
+        254826.69451192804,
+        3363870.7410369287,
+        9.057765408861352
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 195.18672899999956,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44855231100306,
+        30.38194041164469,
+        89.05776540886136
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000079.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000079",
+      "image": "images/000079.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01513671875,
+        "edge_density": 0.2553168402777778,
+        "height_variation": 1.5048084259033203,
+        "landcover_score": 1.3774297025468614,
+        "road_like_ratio": 0.6469184027777778,
+        "vegetation_ratio": 0.3098958333333333
+      },
+      "mask": "masks/000079.png",
+      "raster_xy_ground_z": [
+        254827.18237158717,
+        3363871.613959006,
+        9.304241270570003
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 279.2585030000083,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44855717922749,
+        30.38194838025033,
+        89.30424127057
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000080.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000080",
+      "image": "images/000080.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0146484375,
+        "edge_density": 0.2601996527777778,
+        "height_variation": 1.476025104522705,
+        "landcover_score": 1.3810464209980435,
+        "road_like_ratio": 0.65234375,
+        "vegetation_ratio": 0.3064236111111111
+      },
+      "mask": "masks/000080.png",
+      "raster_xy_ground_z": [
+        254827.6702312463,
+        3363872.4868810833,
+        9.497695415635658
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4052734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 218.50137599999186,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44856204745268,
+        30.381956348855844,
+        89.49769541563566
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000081.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000081",
+      "image": "images/000081.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01318359375,
+        "edge_density": 0.2540147569444444,
+        "height_variation": 1.4950928688049316,
+        "landcover_score": 1.3701205081409877,
+        "road_like_ratio": 0.6586371527777778,
+        "vegetation_ratio": 0.2966579861111111
+      },
+      "mask": "masks/000081.png",
+      "raster_xy_ground_z": [
+        254828.15809090546,
+        3363873.3598031607,
+        9.470297116292457
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3955078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 142.3045179999889,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44856691567864,
+        30.3819643174612,
+        89.47029711629246
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000082.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000082",
+      "image": "images/000082.jpg",
+      "landcover_metrics": {
+        "building_density": 0.01416015625,
+        "edge_density": 0.267578125,
+        "height_variation": 1.4782037734985352,
+        "landcover_score": 1.3723873535792033,
+        "road_like_ratio": 0.6626519097222222,
+        "vegetation_ratio": 0.2927517361111111
+      },
+      "mask": "masks/000082.png",
+      "raster_xy_ground_z": [
+        254828.6459505646,
+        3363874.232725238,
+        9.361600926519474
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3857421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 160.66218200001003,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44857178390534,
+        30.3819722860664,
+        89.36160092651947
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000083.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000083",
+      "image": "images/000083.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0126953125,
+        "edge_density": 0.2573784722222222,
+        "height_variation": 1.4883642196655273,
+        "landcover_score": 1.3686719708972508,
+        "road_like_ratio": 0.6741536458333334,
+        "vegetation_ratio": 0.2842881944444444
+      },
+      "mask": "masks/000083.png",
+      "raster_xy_ground_z": [
+        254829.13381022372,
+        3363875.1056473153,
+        9.531436022675146
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4150390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 151.4233489999981,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4485766521328,
+        30.381980254671475,
+        89.53143602267515
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000084.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000084",
+      "image": "images/000084.jpg",
+      "landcover_metrics": {
+        "building_density": 0.011962890625,
+        "edge_density": 0.2613932291666667,
+        "height_variation": 1.4873590469360352,
+        "landcover_score": 1.359935164451599,
+        "road_like_ratio": 0.6807725694444444,
+        "vegetation_ratio": 0.2735460069444444
+      },
+      "mask": "masks/000084.png",
+      "raster_xy_ground_z": [
+        254829.62166988288,
+        3363875.9785693926,
+        9.833199507091274
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3955078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 163.7507320000111,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44858152036102,
+        30.381988223276394,
+        89.83319950709128
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000085.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000085",
+      "image": "images/000085.jpg",
+      "landcover_metrics": {
+        "building_density": 0.010986328125,
+        "edge_density": 0.2662760416666667,
+        "height_variation": 1.4764623641967773,
+        "landcover_score": 1.361053935686747,
+        "road_like_ratio": 0.6852213541666666,
+        "vegetation_ratio": 0.2692057291666667
+      },
+      "mask": "masks/000085.png",
+      "raster_xy_ground_z": [
+        254830.109529542,
+        3363876.8514914694,
+        9.576919459522175
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3955078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.76030300001196,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44858638858999,
+        30.381996191881175,
+        89.57691945952217
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000086.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000086",
+      "image": "images/000086.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009765625,
+        "edge_density": 0.2709418402777778,
+        "height_variation": 1.4974327087402344,
+        "landcover_score": 1.3544695642259388,
+        "road_like_ratio": 0.6976996527777778,
+        "vegetation_ratio": 0.2555338541666667
+      },
+      "mask": "masks/000086.png",
+      "raster_xy_ground_z": [
+        254830.59738920114,
+        3363877.7244135467,
+        9.239516973983655
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4150390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 154.49944599998844,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44859125681973,
+        30.38200416048579,
+        89.23951697398365
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000087.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000087",
+      "image": "images/000087.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009765625,
+        "edge_density": 0.263671875,
+        "height_variation": 1.4776644706726074,
+        "landcover_score": 1.3504932840665183,
+        "road_like_ratio": 0.6999782986111112,
+        "vegetation_ratio": 0.2531467013888889
+      },
+      "mask": "masks/000087.png",
+      "raster_xy_ground_z": [
+        254831.0852488603,
+        3363878.597335624,
+        8.926171567935459
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4150390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 159.08205799999564,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4485961250502,
+        30.38201212909029,
+        88.92617156793546
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000088.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000088",
+      "image": "images/000088.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0087890625,
+        "edge_density": 0.2600911458333333,
+        "height_variation": 1.4895339012145996,
+        "landcover_score": 1.3407564441363016,
+        "road_like_ratio": 0.7097439236111112,
+        "vegetation_ratio": 0.2414279513888889
+      },
+      "mask": "masks/000088.png",
+      "raster_xy_ground_z": [
+        254831.57310851943,
+        3363879.4702577014,
+        8.766160520319483
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.3955078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 177.5905559999984,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44860099328145,
+        30.38202009769462,
+        88.76616052031949
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000089.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000089",
+      "image": "images/000089.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.2598741319444444,
+        "height_variation": 1.527660846710205,
+        "landcover_score": 1.3392770118183561,
+        "road_like_ratio": 0.7107204861111112,
+        "vegetation_ratio": 0.24034288194444445
+      },
+      "mask": "masks/000089.png",
+      "raster_xy_ground_z": [
+        254832.06096817856,
+        3363880.3431797787,
+        8.73946755207216
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4248046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 130.94087499999318,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44860586151343,
+        30.382028066298826,
+        88.73946755207216
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000090.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000090",
+      "image": "images/000090.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2574869791666667,
+        "height_variation": 1.5319867134094238,
+        "landcover_score": 1.3296528061230977,
+        "road_like_ratio": 0.7218967013888888,
+        "vegetation_ratio": 0.228515625
+      },
+      "mask": "masks/000090.png",
+      "raster_xy_ground_z": [
+        254832.5488278377,
+        3363881.216101856,
+        8.694828356672131
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4150390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 151.32021700000564,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44861072974619,
+        30.382036034902864,
+        88.69482835667213
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000091.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000091",
+      "image": "images/000091.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008056640625,
+        "edge_density": 0.2596571180555556,
+        "height_variation": 1.5444731712341309,
+        "landcover_score": 1.3321618252330358,
+        "road_like_ratio": 0.7274305555555556,
+        "vegetation_ratio": 0.2251519097222222
+      },
+      "mask": "masks/000091.png",
+      "raster_xy_ground_z": [
+        254833.03668749685,
+        3363882.0890239333,
+        8.481436292293326
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4052734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 139.40255100000343,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4486155979797,
+        30.38204400350678,
+        88.48143629229332
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000092.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000092",
+      "image": "images/000092.jpg",
+      "landcover_metrics": {
+        "building_density": 0.00927734375,
+        "edge_density": 0.2537977430555556,
+        "height_variation": 1.5781216621398926,
+        "landcover_score": 1.3232965244187251,
+        "road_like_ratio": 0.7298177083333334,
+        "vegetation_ratio": 0.22135416666666666
+      },
+      "mask": "masks/000092.png",
+      "raster_xy_ground_z": [
+        254833.52454715598,
+        3363882.9619460106,
+        8.63540866970817
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4248046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 154.40032899999778,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44862046621397,
+        30.38205197211053,
+        88.63540866970817
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000093.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000093",
+      "image": "images/000093.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2524956597222222,
+        "height_variation": 1.601222038269043,
+        "landcover_score": 1.3190243535571629,
+        "road_like_ratio": 0.7366536458333334,
+        "vegetation_ratio": 0.21484375
+      },
+      "mask": "masks/000093.png",
+      "raster_xy_ground_z": [
+        254834.0124068151,
+        3363883.834868088,
+        9.048410180473832
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4248046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.97898299999645,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44862533444898,
+        30.38205994071415,
+        89.04841018047384
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000094.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000094",
+      "image": "images/000094.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.2568359375,
+        "height_variation": 1.6215577125549316,
+        "landcover_score": 1.3163132707277934,
+        "road_like_ratio": 0.7407769097222222,
+        "vegetation_ratio": 0.2095269097222222
+      },
+      "mask": "masks/000094.png",
+      "raster_xy_ground_z": [
+        254834.50026647426,
+        3363884.707790165,
+        9.379335785920674
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4052734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.75254000000336,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44863020268475,
+        30.382067909317612,
+        89.37933578592067
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000095.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000095",
+      "image": "images/000095.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2582465277777778,
+        "height_variation": 1.6385197639465332,
+        "landcover_score": 1.314467778470781,
+        "road_like_ratio": 0.7455512152777778,
+        "vegetation_ratio": 0.2056206597222222
+      },
+      "mask": "masks/000095.png",
+      "raster_xy_ground_z": [
+        254834.9881261334,
+        3363885.5807122425,
+        9.611258786809268
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4052734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 124.53240700000379,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44863507092128,
+        30.382075877920936,
+        89.61125878680927
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000096.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000096",
+      "image": "images/000096.jpg",
+      "landcover_metrics": {
+        "building_density": 0.008544921875,
+        "edge_density": 0.2472873263888889,
+        "height_variation": 1.6617722511291504,
+        "landcover_score": 1.305368671152327,
+        "road_like_ratio": 0.7490234375,
+        "vegetation_ratio": 0.2006293402777778
+      },
+      "mask": "masks/000096.png",
+      "raster_xy_ground_z": [
+        254835.47598579252,
+        3363886.45363432,
+        9.829841791233815
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4248046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 131.90853199999708,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44863993915858,
+        30.382083846524118,
+        89.82984179123382
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000097.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000097",
+      "image": "images/000097.jpg",
+      "landcover_metrics": {
+        "building_density": 0.009033203125,
+        "edge_density": 0.2612847222222222,
+        "height_variation": 1.6595368385314941,
+        "landcover_score": 1.3149623168839348,
+        "road_like_ratio": 0.7533637152777778,
+        "vegetation_ratio": 0.20030381944444445
+      },
+      "mask": "masks/000097.png",
+      "raster_xy_ground_z": [
+        254835.96384545168,
+        3363887.3265563967,
+        9.95656102548853
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4248046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 152.47666499999468,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44864480739662,
+        30.382091815127136,
+        89.95656102548853
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000098.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000098",
+      "image": "images/000098.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0087890625,
+        "edge_density": 0.2421875,
+        "height_variation": 1.6836133003234863,
+        "landcover_score": 1.3018549799919128,
+        "road_like_ratio": 0.7571614583333334,
+        "vegetation_ratio": 0.1948784722222222
+      },
+      "mask": "masks/000098.png",
+      "raster_xy_ground_z": [
+        254836.4517051108,
+        3363888.199478474,
+        10.145886232731415
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4345703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 146.1993470000067,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44864967563542,
+        30.38209978373003,
+        90.14588623273141
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000099.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000099",
+      "image": "images/000099.jpg",
+      "landcover_metrics": {
+        "building_density": 0.0078125,
+        "edge_density": 0.2503255208333333,
+        "height_variation": 1.7026076316833496,
+        "landcover_score": 1.3067837675412497,
+        "road_like_ratio": 0.7594401041666666,
+        "vegetation_ratio": 0.1937934027777778
+      },
+      "mask": "masks/000099.png",
+      "raster_xy_ground_z": [
+        254836.93956476994,
+        3363889.0724005513,
+        10.839751241436561
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.4345703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.0560130000058,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44865454387497,
+        30.38210775233277,
+        90.83975124143656
+      ],
+      "valid_depth_ratio": 1.0
+    }
+  ],
+  "init_noise_stats": {
+    "dx_m": {
+      "mean": 0.14891188668024222,
+      "p95_abs": 5.7109983196940135,
+      "std": 2.766179837818003
+    },
+    "dy_m": {
+      "mean": -0.043622948900277445,
+      "p95_abs": 5.374980663631754,
+      "std": 2.6899595329673693
+    },
+    "dyaw_deg": {
+      "mean": 0.15711677105815966,
+      "p95_abs": 4.0225834860998235,
+      "std": 2.0457449707987063
+    },
+    "dz_m": {
+      "mean": 0.06508974732732328,
+      "p95_abs": 1.7805104497444353,
+      "std": 1.0030627009007578
+    },
+    "xy_norm_m": {
+      "mean": 3.404480480905204,
+      "p95_abs": 6.826649876329627,
+      "std": 1.8224224403122784
+    }
+  },
+  "landcover_summary": {
+    "building_density": 0.01189208984375,
+    "edge_density": 0.24397135416666665,
+    "height_variation": 1.4832927703857421,
+    "landcover_score": 1.4566847705841064,
+    "road_like_ratio": 0.5777419704861111,
+    "vegetation_ratio": 0.39974283854166665
+  },
+  "mean_valid_depth_ratio": 1.0,
+  "min_valid_depth_ratio": 1.0,
+  "num_frames": 100,
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+  "output_files": {
+    "depth_dir": "depth",
+    "gt_poses": "poses/gt_poses.txt",
+    "images_dir": "images",
+    "init_noisy_poses": "poses/init_noisy_poses.txt",
+    "masks_dir": "masks",
+    "odom_edges": "poses/odom_edges.txt",
+    "sample_frames": "previews/sample_frames.png",
+    "trajectory_topdown": "previews/trajectory_topdown.png"
+  },
+  "valid_frame_count": 100,
+  "warnings": [
+    {
+      "frame": "000000",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000001",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000002",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000003",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000004",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000005",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000006",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000007",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000008",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000009",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000010",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000011",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000012",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000013",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000014",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000015",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000016",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000017",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000018",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000019",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000020",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000021",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000022",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000023",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000024",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000025",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000026",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000027",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000028",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000029",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000030",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000031",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000032",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000033",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000034",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000035",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000036",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000037",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000038",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000039",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000040",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000041",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000042",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000043",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000044",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000045",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000046",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000047",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000048",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000049",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000050",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000051",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000052",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000053",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000054",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000055",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000056",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000057",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000058",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000059",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000060",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000061",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000062",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000063",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000064",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000065",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000066",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000067",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000068",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000069",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000070",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000071",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000072",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000073",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000074",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000075",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000076",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000077",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000078",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000079",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000080",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000081",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000082",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000083",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000084",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000085",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000086",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000087",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000088",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000089",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000090",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000091",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000092",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000093",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000094",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000095",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000096",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000097",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000098",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000099",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    }
+  ]
+}

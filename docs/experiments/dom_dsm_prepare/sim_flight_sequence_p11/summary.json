@@ -1,0 +1,3848 @@
+{
+  "frame_records": [
+    {
+      "depth": "depth/000000.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000000",
+      "image": "images/000000.jpg",
+      "mask": "masks/000000.png",
+      "raster_xy_ground_z": [
+        254476.43691781085,
+        3364552.9943501083,
+        29.955765471118497
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.9619140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 15839.274704999994,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44475018906556,
+        30.388019762050675,
+        109.9557654711185
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000001.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000001",
+      "image": "images/000001.jpg",
+      "mask": "masks/000001.png",
+      "raster_xy_ground_z": [
+        254476.92477746998,
+        3364553.8672721856,
+        30.230609375543814
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0400390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 153.07553700000653,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44475505723457,
+        30.38802773079111,
+        110.23060937554382
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000002.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000002",
+      "image": "images/000002.jpg",
+      "mask": "masks/000002.png",
+      "raster_xy_ground_z": [
+        254477.4126371291,
+        3364554.740194263,
+        29.979188634667
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0302734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 141.29570100000421,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44475992540434,
+        30.388035699531404,
+        109.979188634667
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000003.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000003",
+      "image": "images/000003.jpg",
+      "mask": "masks/000003.png",
+      "raster_xy_ground_z": [
+        254477.90049678826,
+        3364555.61311634,
+        29.536468021660195
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0302734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.513463,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44476479357486,
+        30.388043668271543,
+        109.5364680216602
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000004.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000004",
+      "image": "images/000004.jpg",
+      "mask": "masks/000004.png",
+      "raster_xy_ground_z": [
+        254478.3883564474,
+        3364556.486038417,
+        29.094284678080328
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0791015625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 145.24232499999812,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44476966174612,
+        30.38805163701154,
+        109.09428467808033
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000005.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000005",
+      "image": "images/000005.jpg",
+      "mask": "masks/000005.png",
+      "raster_xy_ground_z": [
+        254478.87621610652,
+        3364557.3589604944,
+        28.652440968712064
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0693359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 151.06613400000413,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44477452991816,
+        30.388059605751405,
+        108.65244096871206
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000006.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000006",
+      "image": "images/000006.jpg",
+      "mask": "masks/000006.png",
+      "raster_xy_ground_z": [
+        254479.36407576568,
+        3364558.2318825717,
+        28.413274666772956
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.7470703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 168.50858499999788,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44477939809096,
+        30.388067574491107,
+        108.41327466677296
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000007.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000007",
+      "image": "images/000007.jpg",
+      "mask": "masks/000007.png",
+      "raster_xy_ground_z": [
+        254479.8519354248,
+        3364559.104804649,
+        28.166648336769494
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0595703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.69443200000808,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4447842662645,
+        30.38807554323067,
+        108.1666483367695
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000008.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000008",
+      "image": "images/000008.jpg",
+      "mask": "masks/000008.png",
+      "raster_xy_ground_z": [
+        254480.33979508394,
+        3364559.9777267263,
+        28.095814709440486
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0595703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 165.59471800000836,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4447891344388,
+        30.388083511970084,
+        108.09581470944049
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000009.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000009",
+      "image": "images/000009.jpg",
+      "mask": "masks/000009.png",
+      "raster_xy_ground_z": [
+        254480.8276547431,
+        3364560.8506488036,
+        28.10667163871842
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.9912109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.72614200000044,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44479400261386,
+        30.38809148070936,
+        108.10667163871842
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000010.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000010",
+      "image": "images/000010.jpg",
+      "mask": "masks/000010.png",
+      "raster_xy_ground_z": [
+        254481.31551440223,
+        3364561.723570881,
+        28.12852110370796
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0986328125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 129.20119999999713,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44479887078967,
+        30.38809944944849,
+        108.12852110370795
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000011.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000011",
+      "image": "images/000011.jpg",
+      "mask": "masks/000011.png",
+      "raster_xy_ground_z": [
+        254481.80337406136,
+        3364562.5964929583,
+        28.22835788259715
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0986328125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 127.04623800000547,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44480373896623,
+        30.388107418187474,
+        108.22835788259715
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000012.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000012",
+      "image": "images/000012.jpg",
+      "mask": "masks/000012.png",
+      "raster_xy_ground_z": [
+        254482.2912337205,
+        3364563.4694150356,
+        28.416961905117645
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0888671875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 117.44063300000107,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44480860714356,
+        30.38811538692631,
+        108.41696190511765
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000013.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000013",
+      "image": "images/000013.jpg",
+      "mask": "masks/000013.png",
+      "raster_xy_ground_z": [
+        254482.77909337965,
+        3364564.342337113,
+        28.24999075919332
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0595703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.97034599999313,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44481347532164,
+        30.388123355665005,
+        108.24999075919332
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000014.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000014",
+      "image": "images/000014.jpg",
+      "mask": "masks/000014.png",
+      "raster_xy_ground_z": [
+        254483.26695303878,
+        3364565.21525919,
+        28.18033433449724
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0595703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 113.84476300000301,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44481834350047,
+        30.38813132440355,
+        108.18033433449725
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000015.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000015",
+      "image": "images/000015.jpg",
+      "mask": "masks/000015.png",
+      "raster_xy_ground_z": [
+        254483.7548126979,
+        3364566.088181267,
+        28.22262292723927
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1279296875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 138.56770699999288,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44482321168007,
+        30.388139293141954,
+        108.22262292723927
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000016.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000016",
+      "image": "images/000016.jpg",
+      "mask": "masks/000016.png",
+      "raster_xy_ground_z": [
+        254484.24267235707,
+        3364566.9611033443,
+        25.565127911303982
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1279296875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 121.66437000000485,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44482807986041,
+        30.388147261880192,
+        105.56512791130399
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000017.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000017",
+      "image": "images/000017.jpg",
+      "mask": "masks/000017.png",
+      "raster_xy_ground_z": [
+        254484.7305320162,
+        3364567.8340254216,
+        24.69214601294477
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1279296875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.29427799999803,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44483294804152,
+        30.388155230618313,
+        104.69214601294478
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000018.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000018",
+      "image": "images/000018.jpg",
+      "mask": "masks/000018.png",
+      "raster_xy_ground_z": [
+        254485.21839167533,
+        3364568.706947499,
+        18.98512303196781
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1767578125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.82460800000672,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44483781622338,
+        30.388163199356278,
+        98.98512303196782
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000019.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000019",
+      "image": "images/000019.jpg",
+      "mask": "masks/000019.png",
+      "raster_xy_ground_z": [
+        254485.7062513345,
+        3364569.5798695763,
+        19.025578013401415
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1767578125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 121.65088700000126,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.444842684406,
+        30.388171168094104,
+        99.02557801340141
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000020.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000020",
+      "image": "images/000020.jpg",
+      "mask": "masks/000020.png",
+      "raster_xy_ground_z": [
+        254486.19411099362,
+        3364570.4527916536,
+        19.039688707374125
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 330.9619140625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 119.37457999999879,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44484755258938,
+        30.38817913683178,
+        99.03968870737413
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000021.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000021",
+      "image": "images/000021.jpg",
+      "mask": "masks/000021.png",
+      "raster_xy_ground_z": [
+        254486.68197065275,
+        3364571.325713731,
+        18.94947947449853
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1572265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.73211099999537,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4448524207735,
+        30.38818710556931,
+        98.94947947449853
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000022.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000022",
+      "image": "images/000022.jpg",
+      "mask": "masks/000022.png",
+      "raster_xy_ground_z": [
+        254487.1698303119,
+        3364572.198635808,
+        18.852824908075373
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1572265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 117.85323899999867,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44485728895837,
+        30.388195074306687,
+        98.85282490807538
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000023.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000023",
+      "image": "images/000023.jpg",
+      "mask": "masks/000023.png",
+      "raster_xy_ground_z": [
+        254487.65768997103,
+        3364573.0715578855,
+        18.747057217606667
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.0595703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.80447099999469,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44486215714403,
+        30.388203043043934,
+        98.74705721760667
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000024.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000024",
+      "image": "images/000024.jpg",
+      "mask": "masks/000024.png",
+      "raster_xy_ground_z": [
+        254488.14554963016,
+        3364573.944479963,
+        18.72713539669516
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2060546875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.77256300000317,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44486702533042,
+        30.38821101178102,
+        98.72713539669516
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000025.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000025",
+      "image": "images/000025.jpg",
+      "mask": "masks/000025.png",
+      "raster_xy_ground_z": [
+        254488.6334092893,
+        3364574.81740204,
+        18.748087951641725
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2060546875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.13530799999694,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44487189351757,
+        30.388218980517976,
+        98.74808795164172
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000026.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000026",
+      "image": "images/000026.jpg",
+      "mask": "masks/000026.png",
+      "raster_xy_ground_z": [
+        254489.12126894845,
+        3364575.690324117,
+        18.76700349322442
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1669921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 119.67168200000344,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44487676170549,
+        30.388226949254776,
+        98.76700349322442
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000027.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000027",
+      "image": "images/000027.jpg",
+      "mask": "masks/000027.png",
+      "raster_xy_ground_z": [
+        254489.60912860758,
+        3364576.5632461943,
+        18.763869093361137
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1865234375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.44915199999207,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44488162989414,
+        30.388234917991433,
+        98.76386909336114
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000028.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000028",
+      "image": "images/000028.jpg",
+      "mask": "masks/000028.png",
+      "raster_xy_ground_z": [
+        254490.0969882667,
+        3364577.4361682716,
+        18.711554564694918
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1669921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 131.09400000000448,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44488649808356,
+        30.388242886727948,
+        98.71155456469492
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000029.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000029",
+      "image": "images/000029.jpg",
+      "mask": "masks/000029.png",
+      "raster_xy_ground_z": [
+        254490.58484792587,
+        3364578.309090349,
+        18.790433303988713
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1279296875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.529000000005,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44489136627374,
+        30.388250855464314,
+        98.79043330398872
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000030.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000030",
+      "image": "images/000030.jpg",
+      "mask": "masks/000030.png",
+      "raster_xy_ground_z": [
+        254491.072707585,
+        3364579.182012426,
+        19.143419488387785
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2451171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 192.38929999998788,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44489623446466,
+        30.388258824200545,
+        99.14341948838779
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000031.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000031",
+      "image": "images/000031.jpg",
+      "mask": "masks/000031.png",
+      "raster_xy_ground_z": [
+        254491.56056724413,
+        3364580.0549345035,
+        20.060186617492626
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2451171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 147.7141999999958,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44490110265636,
+        30.388266792936612,
+        100.06018661749263
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000032.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000032",
+      "image": "images/000032.jpg",
+      "mask": "masks/000032.png",
+      "raster_xy_ground_z": [
+        254492.0484269033,
+        3364580.927856581,
+        20.36489961223023
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2060546875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 145.21239999999125,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4449059708488,
+        30.388274761672555,
+        100.36489961223023
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000033.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000033",
+      "image": "images/000033.jpg",
+      "mask": "masks/000033.png",
+      "raster_xy_ground_z": [
+        254492.53628656242,
+        3364581.800778658,
+        20.60038282946922
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3037109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.97119999999074,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.444910839042,
+        30.38828273040834,
+        100.60038282946923
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000034.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000034",
+      "image": "images/000034.jpg",
+      "mask": "masks/000034.png",
+      "raster_xy_ground_z": [
+        254493.02414622155,
+        3364582.6737007354,
+        22.523316362925318
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.1572265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 137.17400000000168,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44491570723595,
+        30.38829069914399,
+        102.52331636292531
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000035.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000035",
+      "image": "images/000035.jpg",
+      "mask": "masks/000035.png",
+      "raster_xy_ground_z": [
+        254493.5120058807,
+        3364583.5466228127,
+        29.7090944263415
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2841796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 160.5272000000042,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44492057543067,
+        30.388298667879475,
+        109.7090944263415
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000036.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000036",
+      "image": "images/000036.jpg",
+      "mask": "masks/000036.png",
+      "raster_xy_ground_z": [
+        254493.99986553984,
+        3364584.41954489,
+        29.245929722029302
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2841796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 147.53380000000504,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44492544362613,
+        30.388306636614836,
+        109.2459297220293
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000037.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000037",
+      "image": "images/000037.jpg",
+      "mask": "masks/000037.png",
+      "raster_xy_ground_z": [
+        254494.48772519897,
+        3364585.2924669674,
+        28.734553384716765
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2353515625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 149.78960100000904,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44493031182235,
+        30.388314605350036,
+        108.73455338471676
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000038.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000038",
+      "image": "images/000038.jpg",
+      "mask": "masks/000038.png",
+      "raster_xy_ground_z": [
+        254494.9755848581,
+        3364586.165389044,
+        28.294922283709177
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3427734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 124.73560000000816,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44493518001933,
+        30.388322574085095,
+        108.29492228370918
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000039.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000039",
+      "image": "images/000039.jpg",
+      "mask": "masks/000039.png",
+      "raster_xy_ground_z": [
+        254495.46344451726,
+        3364587.0383111215,
+        28.282752952624843
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3427734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 134.21129999998982,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44494004821706,
+        30.388330542820004,
+        108.28275295262485
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000040.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000040",
+      "image": "images/000040.jpg",
+      "mask": "masks/000040.png",
+      "raster_xy_ground_z": [
+        254495.9513041764,
+        3364587.911233199,
+        28.271392390476827
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2939453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 148.14079999999308,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44494491641557,
+        30.388338511554778,
+        108.27139239047682
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000041.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000041",
+      "image": "images/000041.jpg",
+      "mask": "masks/000041.png",
+      "raster_xy_ground_z": [
+        254496.43916383552,
+        3364588.784155276,
+        28.26002965946849
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3232421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 154.38349999999446,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4449497846148,
+        30.388346480289403,
+        108.26002965946849
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000042.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000042",
+      "image": "images/000042.jpg",
+      "mask": "masks/000042.png",
+      "raster_xy_ground_z": [
+        254496.92702349467,
+        3364589.6570773534,
+        28.245779546270914
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2939453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.17129999999577,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4449546528148,
+        30.388354449023883,
+        108.24577954627091
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000043.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000043",
+      "image": "images/000043.jpg",
+      "mask": "masks/000043.png",
+      "raster_xy_ground_z": [
+        254497.4148831538,
+        3364590.5299994308,
+        28.195235190135634
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2548828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 125.11260000000846,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44495952101556,
+        30.388362417758216,
+        108.19523519013563
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000044.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000044",
+      "image": "images/000044.jpg",
+      "mask": "masks/000044.png",
+      "raster_xy_ground_z": [
+        254497.90274281293,
+        3364591.402921508,
+        28.130565414343288
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3818359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.8651000000084,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44496438921709,
+        30.388370386492408,
+        108.1305654143433
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000045.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000045",
+      "image": "images/000045.jpg",
+      "mask": "masks/000045.png",
+      "raster_xy_ground_z": [
+        254498.3906024721,
+        3364592.2758435854,
+        27.98549453374005
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3818359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 128.22160000000338,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44496925741934,
+        30.388378355226454,
+        107.98549453374005
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000046.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000046",
+      "image": "images/000046.jpg",
+      "mask": "masks/000046.png",
+      "raster_xy_ground_z": [
+        254498.87846213122,
+        3364593.1487656627,
+        27.963337475552297
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3427734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 122.66540000000248,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44497412562237,
+        30.38838632396035,
+        107.9633374755523
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000047.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000047",
+      "image": "images/000047.jpg",
+      "mask": "masks/000047.png",
+      "raster_xy_ground_z": [
+        254499.36632179035,
+        3364594.02168774,
+        28.063156711219634
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3330078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 122.82559999999876,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44497899382615,
+        30.38839429269411,
+        108.06315671121963
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000048.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000048",
+      "image": "images/000048.jpg",
+      "mask": "masks/000048.png",
+      "raster_xy_ground_z": [
+        254499.8541814495,
+        3364594.8946098173,
+        28.12730490493973
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.2939453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 127.13220000000547,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4449838620307,
+        30.38840226142771,
+        108.12730490493973
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000049.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000049",
+      "image": "images/000049.jpg",
+      "mask": "masks/000049.png",
+      "raster_xy_ground_z": [
+        254500.34204110864,
+        3364595.7675318946,
+        28.423399690650022
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4111328125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 131.0886999999923,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44498873023599,
+        30.38841023016118,
+        108.42339969065003
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000050.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000050",
+      "image": "images/000050.jpg",
+      "mask": "masks/000050.png",
+      "raster_xy_ground_z": [
+        254500.82990076777,
+        3364596.6404539715,
+        28.98584739692106
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4306640625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 144.60350000000233,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44499359844204,
+        30.388418198894488,
+        108.98584739692106
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000051.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000051",
+      "image": "images/000051.jpg",
+      "mask": "masks/000051.png",
+      "raster_xy_ground_z": [
+        254501.3177604269,
+        3364597.5133760488,
+        29.469799780203594
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3818359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 140.98919999999282,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44499846664884,
+        30.388426167627664,
+        109.4697997802036
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000052.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000052",
+      "image": "images/000052.jpg",
+      "mask": "masks/000052.png",
+      "raster_xy_ground_z": [
+        254501.80562008606,
+        3364598.386298126,
+        29.902750081685937
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.3818359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 127.77099999999564,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44500333485641,
+        30.388434136360686,
+        109.90275008168594
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000053.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000053",
+      "image": "images/000053.jpg",
+      "mask": "masks/000053.png",
+      "raster_xy_ground_z": [
+        254502.2934797452,
+        3364599.2592202034,
+        25.101041069206232
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5087890625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 125.46079999999904,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44500820306473,
+        30.38844210509357,
+        105.10104106920623
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000054.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000054",
+      "image": "images/000054.jpg",
+      "mask": "masks/000054.png",
+      "raster_xy_ground_z": [
+        254502.78133940432,
+        3364600.1321422807,
+        20.477732725079818
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4501953125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.4446999999983,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4450130712738,
+        30.38845007382632,
+        100.47773272507982
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000055.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000055",
+      "image": "images/000055.jpg",
+      "mask": "masks/000055.png",
+      "raster_xy_ground_z": [
+        254503.26919906348,
+        3364601.005064358,
+        18.950905451941004
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4794921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 149.9423000000064,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44501793948363,
+        30.388458042558895,
+        98.950905451941
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000056.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000056",
+      "image": "images/000056.jpg",
+      "mask": "masks/000056.png",
+      "raster_xy_ground_z": [
+        254503.7570587226,
+        3364601.8779864353,
+        22.353712153995794
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4599609375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.26890000000458,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44502280769422,
+        30.388466011291346,
+        102.35371215399579
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000057.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000057",
+      "image": "images/000057.jpg",
+      "mask": "masks/000057.png",
+      "raster_xy_ground_z": [
+        254504.24491838174,
+        3364602.7509085126,
+        23.05620576900669
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.4990234375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 128.49489999999264,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44502767590556,
+        30.38847398002365,
+        103.0562057690067
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000058.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000058",
+      "image": "images/000058.jpg",
+      "mask": "masks/000058.png",
+      "raster_xy_ground_z": [
+        254504.7327780409,
+        3364603.62383059,
+        22.969449453850604
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5576171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 127.56650000000036,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44503254411767,
+        30.388481948755796,
+        102.9694494538506
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000059.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000059",
+      "image": "images/000059.jpg",
+      "mask": "masks/000059.png",
+      "raster_xy_ground_z": [
+        254505.22063770003,
+        3364604.4967526672,
+        22.227126835521407
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5673828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.21629999999607,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44503741233052,
+        30.388489917487814,
+        102.2271268355214
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000060.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000060",
+      "image": "images/000060.jpg",
+      "mask": "masks/000060.png",
+      "raster_xy_ground_z": [
+        254505.70849735916,
+        3364605.3696747446,
+        18.95996903683257
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5087890625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 138.20820000000822,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44504228054413,
+        30.388497886219664,
+        98.95996903683258
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000061.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000061",
+      "image": "images/000061.jpg",
+      "mask": "masks/000061.png",
+      "raster_xy_ground_z": [
+        254506.1963570183,
+        3364606.242596822,
+        18.72059773744717
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5087890625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 172.36840000001052,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44504714875849,
+        30.388505854951397,
+        98.72059773744718
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000062.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000062",
+      "image": "images/000062.jpg",
+      "mask": "masks/000062.png",
+      "raster_xy_ground_z": [
+        254506.68421667744,
+        3364607.1155188987,
+        18.698301997231873
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5087890625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 139.56928300000015,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4450520169736,
+        30.38851382368297,
+        98.69830199723188
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000063.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000063",
+      "image": "images/000063.jpg",
+      "mask": "masks/000063.png",
+      "raster_xy_ground_z": [
+        254507.17207633657,
+        3364607.988440976,
+        18.71486042275112
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5966796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 251.0298079999984,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44505688518949,
+        30.3885217924144,
+        98.71486042275112
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000064.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000064",
+      "image": "images/000064.jpg",
+      "mask": "masks/000064.png",
+      "raster_xy_ground_z": [
+        254507.6599359957,
+        3364608.8613630533,
+        18.707218550428653
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6162109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 288.68097500000545,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44506175340612,
+        30.388529761145687,
+        98.70721855042865
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000065.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000065",
+      "image": "images/000065.jpg",
+      "mask": "masks/000065.png",
+      "raster_xy_ground_z": [
+        254508.14779565486,
+        3364609.7342851306,
+        18.711625575577102
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5576171875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 269.6251250000046,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44506662162351,
+        30.38853772987682,
+        98.7116255755771
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000066.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000066",
+      "image": "images/000066.jpg",
+      "mask": "masks/000066.png",
+      "raster_xy_ground_z": [
+        254508.635655314,
+        3364610.607207208,
+        18.911770603298805
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.5673828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 205.19372500000088,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44507148984165,
+        30.38854569860782,
+        98.9117706032988
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000067.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000067",
+      "image": "images/000067.jpg",
+      "mask": "masks/000067.png",
+      "raster_xy_ground_z": [
+        254509.12351497312,
+        3364611.4801292852,
+        19.092652356861514
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7138671875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 136.5111920000004,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44507635806055,
+        30.38855366733867,
+        99.09265235686152
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000068.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000068",
+      "image": "images/000068.jpg",
+      "mask": "masks/000068.png",
+      "raster_xy_ground_z": [
+        254509.61137463228,
+        3364612.3530513626,
+        19.234351585173044
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6552734375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 159.57287499999495,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44508122628021,
+        30.38856163606937,
+        99.23435158517304
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000069.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000069",
+      "image": "images/000069.jpg",
+      "mask": "masks/000069.png",
+      "raster_xy_ground_z": [
+        254510.0992342914,
+        3364613.22597344,
+        19.111474049207786
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6748046875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.24051699999927,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44508609450062,
+        30.388569604799923,
+        99.11147404920779
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000070.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000070",
+      "image": "images/000070.jpg",
+      "mask": "masks/000070.png",
+      "raster_xy_ground_z": [
+        254510.58709395054,
+        3364614.098895517,
+        18.931797049350116
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6650390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 127.8785750000111,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44509096272179,
+        30.388577573530338,
+        98.93179704935011
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000071.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000071",
+      "image": "images/000071.jpg",
+      "mask": "masks/000071.png",
+      "raster_xy_ground_z": [
+        254511.0749536097,
+        3364614.9718175945,
+        18.872109523437256
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6845703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 121.00467499999468,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44509583094371,
+        30.388585542260607,
+        98.87210952343726
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000072.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000072",
+      "image": "images/000072.jpg",
+      "mask": "masks/000072.png",
+      "raster_xy_ground_z": [
+        254511.56281326883,
+        3364615.844739672,
+        18.943795599466878
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7822265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 122.25097500000004,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4451006991664,
+        30.388593510990727,
+        98.94379559946688
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000073.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000073",
+      "image": "images/000073.jpg",
+      "mask": "masks/000073.png",
+      "raster_xy_ground_z": [
+        254512.05067292796,
+        3364616.717661749,
+        26.20140733361602
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7919921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.19905000000585,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44510556738983,
+        30.38860147972071,
+        106.20140733361602
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000074.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000074",
+      "image": "images/000074.jpg",
+      "mask": "masks/000074.png",
+      "raster_xy_ground_z": [
+        254512.53853258712,
+        3364617.590583826,
+        26.466396145085042
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7236328125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.51254999999594,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44511043561403,
+        30.38860944845052,
+        106.46639614508504
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000075.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000075",
+      "image": "images/000075.jpg",
+      "mask": "masks/000075.png",
+      "raster_xy_ground_z": [
+        254513.02639224625,
+        3364618.4635059033,
+        26.69025073453312
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7333984375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 124.71250000000111,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44511530383897,
+        30.388617417180225,
+        106.69025073453312
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000076.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000076",
+      "image": "images/000076.jpg",
+      "mask": "masks/000076.png",
+      "raster_xy_ground_z": [
+        254513.51425190538,
+        3364619.3364279806,
+        26.937774877289705
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.6650390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 116.22737500000824,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44512017206469,
+        30.38862538590976,
+        106.93777487728971
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000077.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000077",
+      "image": "images/000077.jpg",
+      "mask": "masks/000077.png",
+      "raster_xy_ground_z": [
+        254514.0021115645,
+        3364620.209350058,
+        27.18308096242117
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.8408203125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.46828299999413,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44512504029115,
+        30.38863335463915,
+        107.18308096242117
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000078.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000078",
+      "image": "images/000078.jpg",
+      "mask": "masks/000078.png",
+      "raster_xy_ground_z": [
+        254514.48997122367,
+        3364621.082272135,
+        27.35158097985215
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.8603515625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 115.16641699999752,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44512990851837,
+        30.388641323368407,
+        107.35158097985214
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000079.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000079",
+      "image": "images/000079.jpg",
+      "mask": "masks/000079.png",
+      "raster_xy_ground_z": [
+        254514.9778308828,
+        3364621.9551942125,
+        27.515552765191998
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.7919921875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 130.56040000000735,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44513477674634,
+        30.38864929209751,
+        107.515552765192
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000080.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000080",
+      "image": "images/000080.jpg",
+      "mask": "masks/000080.png",
+      "raster_xy_ground_z": [
+        254515.46569054193,
+        3364622.82811629,
+        27.62526194716899
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.8017578125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.18280000000925,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44513964497506,
+        30.38865726082647,
+        107.625261947169
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000081.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000081",
+      "image": "images/000081.jpg",
+      "mask": "masks/000081.png",
+      "raster_xy_ground_z": [
+        254515.95355020108,
+        3364623.701038367,
+        27.698768191536224
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9970703125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 124.53440000000171,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44514451320455,
+        30.388665229555286,
+        107.69876819153623
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000082.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000082",
+      "image": "images/000082.jpg",
+      "mask": "masks/000082.png",
+      "raster_xy_ground_z": [
+        254516.4414098602,
+        3364624.5739604444,
+        27.741839470212366
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9091796875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.49670000000413,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44514938143479,
+        30.388673198283954,
+        107.74183947021237
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000083.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000083",
+      "image": "images/000083.jpg",
+      "mask": "masks/000083.png",
+      "raster_xy_ground_z": [
+        254516.92926951934,
+        3364625.4468825217,
+        27.72453458699846
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9287109375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 201.92769999999882,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44515424966579,
+        30.388681167012486,
+        107.72453458699846
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000084.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000084",
+      "image": "images/000084.jpg",
+      "mask": "masks/000084.png",
+      "raster_xy_ground_z": [
+        254517.4171291785,
+        3364626.319804599,
+        27.705862321901552
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9384765625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 140.65650000000574,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44515911789753,
+        30.388689135740858,
+        107.70586232190155
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000085.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000085",
+      "image": "images/000085.jpg",
+      "mask": "masks/000085.png",
+      "raster_xy_ground_z": [
+        254517.90498883763,
+        3364627.192726676,
+        27.56761933555403
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9482421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 147.30790000000127,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44516398613004,
+        30.388697104469085,
+        107.56761933555403
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000086.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000086",
+      "image": "images/000086.jpg",
+      "mask": "masks/000086.png",
+      "raster_xy_ground_z": [
+        254518.39284849676,
+        3364628.065648753,
+        27.41905589656656
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.8896484375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.92600099999186,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4451688543633,
+        30.38870507319717,
+        107.41905589656656
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000087.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000087",
+      "image": "images/000087.jpg",
+      "mask": "masks/000087.png",
+      "raster_xy_ground_z": [
+        254518.88070815592,
+        3364628.9385708305,
+        27.27659561292711
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.0947265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 147.02610000000504,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44517372259733,
+        30.388713041925122,
+        107.27659561292711
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000088.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000088",
+      "image": "images/000088.jpg",
+      "mask": "masks/000088.png",
+      "raster_xy_ground_z": [
+        254519.36856781505,
+        3364629.811492908,
+        27.080340201338117
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.0068359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 156.83560000000796,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44517859083211,
+        30.38872101065291,
+        107.08034020133812
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000089.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000089",
+      "image": "images/000089.jpg",
+      "mask": "masks/000089.png",
+      "raster_xy_ground_z": [
+        254519.85642747418,
+        3364630.684414985,
+        26.867012525766555
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.0263671875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 146.50280000000748,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44518345906764,
+        30.388728979380563,
+        106.86701252576655
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000090.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000090",
+      "image": "images/000090.jpg",
+      "mask": "masks/000090.png",
+      "raster_xy_ground_z": [
+        254520.3442871333,
+        3364631.5573370624,
+        26.61054450355356
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 331.9189453125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 153.18919999999991,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44518832730392,
+        30.388736948108072,
+        106.61054450355356
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000091.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000091",
+      "image": "images/000091.jpg",
+      "mask": "masks/000091.png",
+      "raster_xy_ground_z": [
+        254520.83214679247,
+        3364632.4302591397,
+        26.35372444862348
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.1630859375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 121.14040000000159,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44519319554097,
+        30.38874491683544,
+        106.35372444862348
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000092.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000092",
+      "image": "images/000092.jpg",
+      "mask": "masks/000092.png",
+      "raster_xy_ground_z": [
+        254521.3200064516,
+        3364633.303181217,
+        26.05357539602454
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.1923828125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 152.69499999999425,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44519806377878,
+        30.38875288556265,
+        106.05357539602454
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000093.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000093",
+      "image": "images/000093.jpg",
+      "mask": "masks/000093.png",
+      "raster_xy_ground_z": [
+        254521.80786611073,
+        3364634.1761032944,
+        25.76848039920538
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.0947265625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 128.1743999999918,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44520293201732,
+        30.38876085428973,
+        105.76848039920537
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000094.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000094",
+      "image": "images/000094.jpg",
+      "mask": "masks/000094.png",
+      "raster_xy_ground_z": [
+        254522.2957257699,
+        3364635.0490253717,
+        25.998450158766246
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.1142578125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 132.92389999999443,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44520780025664,
+        30.38876882301664,
+        105.99845015876625
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000095.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000095",
+      "image": "images/000095.jpg",
+      "mask": "masks/000095.png",
+      "raster_xy_ground_z": [
+        254522.78358542902,
+        3364635.921947449,
+        26.513192946090754
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.1630859375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.5764000000097,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44521266849671,
+        30.388776791743428,
+        106.51319294609075
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000096.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000096",
+      "image": "images/000096.jpg",
+      "mask": "masks/000096.png",
+      "raster_xy_ground_z": [
+        254523.27144508815,
+        3364636.7948695263,
+        27.023489178299727
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.2607421875,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.22519999999827,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44521753673753,
+        30.388784760470063,
+        107.02348917829973
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000097.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000097",
+      "image": "images/000097.jpg",
+      "mask": "masks/000097.png",
+      "raster_xy_ground_z": [
+        254523.7593047473,
+        3364637.667791603,
+        27.39843065406814
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.2900390625,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 123.09510000000046,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.4452224049791,
+        30.38879272919655,
+        107.39843065406814
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000098.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000098",
+      "image": "images/000098.jpg",
+      "mask": "masks/000098.png",
+      "raster_xy_ground_z": [
+        254524.24716440644,
+        3364638.5407136804,
+        27.33178447615342
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.3193359375,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 126.33809999999812,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44522727322143,
+        30.388800697922896,
+        107.33178447615342
+      ],
+      "valid_depth_ratio": 1.0
+    },
+    {
+      "depth": "depth/000099.npy",
+      "euler_pitch_roll_yaw": [
+        0.0,
+        180.0,
+        29.19999999999999
+      ],
+      "frame": "000099",
+      "image": "images/000099.jpg",
+      "mask": "masks/000099.png",
+      "raster_xy_ground_z": [
+        254524.73502406557,
+        3364639.4136357578,
+        26.96079595272148
+      ],
+      "renderer_metadata": {
+        "backend_requested": "gpu_mesh",
+        "backend_used": "prototype",
+        "depth_convention": "camera_z_m",
+        "depth_max_m": 332.2705078125,
+        "depth_median_m": 330.0,
+        "depth_min_m": 330.0,
+        "fallback_reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+        "render_time_ms": 133.1971999999979,
+        "valid_depth_ratio": 1.0
+      },
+      "translation_lon_lat_alt": [
+        114.44523214146454,
+        30.388808666649087,
+        106.96079595272148
+      ],
+      "valid_depth_ratio": 1.0
+    }
+  ],
+  "init_noise_stats": {
+    "dx_m": {
+      "mean": 0.14891188668024222,
+      "p95_abs": 5.7109983196940135,
+      "std": 2.766179837818003
+    },
+    "dy_m": {
+      "mean": -0.043622948900277445,
+      "p95_abs": 5.374980663631754,
+      "std": 2.6899595329673693
+    },
+    "dyaw_deg": {
+      "mean": 0.15711677105815966,
+      "p95_abs": 4.0225834860998235,
+      "std": 2.0457449707987063
+    },
+    "dz_m": {
+      "mean": 0.06508974732732328,
+      "p95_abs": 1.7805104497444353,
+      "std": 1.0030627009007578
+    },
+    "xy_norm_m": {
+      "mean": 3.404480480905204,
+      "p95_abs": 6.826649876329627,
+      "std": 1.8224224403122784
+    }
+  },
+  "mean_valid_depth_ratio": 1.0,
+  "min_valid_depth_ratio": 1.0,
+  "num_frames": 100,
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11",
+  "output_files": {
+    "depth_dir": "depth",
+    "gt_poses": "poses/gt_poses.txt",
+    "images_dir": "images",
+    "init_noisy_poses": "poses/init_noisy_poses.txt",
+    "masks_dir": "masks",
+    "odom_edges": "poses/odom_edges.txt",
+    "sample_frames": "previews/sample_frames.png",
+    "trajectory_topdown": "previews/trajectory_topdown.png"
+  },
+  "valid_frame_count": 100,
+  "warnings": [
+    {
+      "frame": "000000",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000001",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000002",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000003",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000004",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000005",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000006",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000007",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000008",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000009",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000010",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000011",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000012",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000013",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000014",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000015",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000016",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000017",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000018",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000019",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000020",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000021",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000022",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000023",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000024",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000025",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000026",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000027",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000028",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000029",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000030",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000031",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000032",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000033",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000034",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000035",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000036",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000037",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000038",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000039",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000040",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000041",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000042",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000043",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000044",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000045",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000046",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000047",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000048",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000049",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000050",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000051",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000052",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000053",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000054",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000055",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000056",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000057",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000058",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000059",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000060",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000061",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000062",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000063",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000064",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000065",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000066",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000067",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000068",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000069",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000070",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000071",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000072",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000073",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000074",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000075",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000076",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000077",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000078",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000079",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000080",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000081",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000082",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000083",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000084",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000085",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000086",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000087",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000088",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000089",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000090",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000091",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000092",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000093",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000094",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000095",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000096",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000097",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000098",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    },
+    {
+      "frame": "000099",
+      "reason": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+      "type": "renderer_fallback"
+    }
+  ]
+}

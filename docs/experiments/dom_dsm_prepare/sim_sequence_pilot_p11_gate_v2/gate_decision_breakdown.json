@@ -1,0 +1,26 @@
+{
+  "final_accept_ratio": 0.68,
+  "num_candidate_rows": 599,
+  "pose_gate_accept_ratio": 0.7595190380761523,
+  "pose_reject_reasons": {
+    "pose_alt_jump": 9,
+    "pose_xy_jump": 13,
+    "pose_yaw_jump": 98
+  },
+  "selected_method_counts": {
+    "init": 32,
+    "refined_freeze_alt_corrected_yaw": 1,
+    "refined_freeze_alt_init_yaw": 2,
+    "temporal_predicted": 65
+  },
+  "temporal_gate_accept_ratio": 0.29458917835671344,
+  "temporal_reject_reasons": {
+    "temporal_xy": 332,
+    "temporal_yaw": 20
+  },
+  "visual_gate_accept_ratio": 0.9258517034068137,
+  "visual_reject_reasons": {
+    "visual_chamfer_worse": 22,
+    "visual_overlap_worse": 15
+  }
+}

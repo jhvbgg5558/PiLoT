@@ -1,0 +1,22 @@
+{
+  "allow_temporal_candidate_selection": false,
+  "final_accept_ratio": 0.0,
+  "init_pose_policy": "first_pose_odom",
+  "num_candidate_rows": 599,
+  "pose_gate_accept_ratio": 0.7995991983967936,
+  "pose_reject_reasons": {
+    "pose_yaw_jump": 100
+  },
+  "selected_method_counts": {
+    "init": 100
+  },
+  "temporal_gate_accept_ratio": 0.20641282565130262,
+  "temporal_reject_reasons": {
+    "temporal_xy": 396
+  },
+  "visual_gate_accept_ratio": 0.533066132264529,
+  "visual_reject_reasons": {
+    "visual_chamfer_worse": 217,
+    "visual_overlap_worse": 16
+  }
+}

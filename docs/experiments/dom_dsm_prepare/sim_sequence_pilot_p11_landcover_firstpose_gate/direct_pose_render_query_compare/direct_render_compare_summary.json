@@ -1,0 +1,32 @@
+{
+  "mode": "direct render from provided intrinsics and gt extrinsics, no Pilot optimization",
+  "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate/direct_pose_render_query_compare",
+  "num_frames": 100,
+  "intrinsics_render_camera_w_h_cx_cy_fx_fy": [
+    512.0,
+    384.0,
+    256.0,
+    192.0,
+    361.22682288484845,
+    361.59206739737107
+  ],
+  "extrinsics_source": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover/poses/gt_poses.txt",
+  "pose_file_format": "name lon lat alt roll pitch yaw; renderer uses [pitch, roll, yaw]",
+  "mean_mae_rgb": 2.396219177246094,
+  "median_mae_rgb": 2.3993521796332464,
+  "p90_mae_rgb": 2.439063686794705,
+  "mean_psnr_db": 37.80419901835155,
+  "median_psnr_db": 37.79588356124343,
+  "mean_edge_overlap_iou": 0.8223753625483831,
+  "mean_valid_depth_ratio": 1.0,
+  "renderer_backend_requested": "gpu_mesh",
+  "renderer_backend_used_last": "prototype",
+  "renderer_fallback_last": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'",
+  "outputs": {
+    "index_csv": "direct_render_compare_index.csv",
+    "sample_alpha_grid": "sample_alpha_grid.jpg",
+    "sample_diff_grid": "sample_diff_grid.jpg",
+    "sample_edge_grid": "sample_edge_grid.jpg"
+  }
+}

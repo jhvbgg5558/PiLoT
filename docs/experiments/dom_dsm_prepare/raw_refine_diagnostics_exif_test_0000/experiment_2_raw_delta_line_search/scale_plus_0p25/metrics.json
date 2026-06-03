@@ -1,0 +1,29 @@
+{
+  "candidate": "scale_plus_0p25",
+  "depth_max": 378.2381286621094,
+  "depth_min": 352.15985107421875,
+  "edge_chamfer": 7.6949567794799805,
+  "edge_overlap_count": 1355,
+  "edge_overlap_ratio": 0.5177684371417653,
+  "euler_delta_pitch_deg": 0.0,
+  "euler_delta_roll_deg": 0.0,
+  "euler_delta_yaw_deg": 0.0,
+  "euler_pitch_roll_yaw": [
+    0.0,
+    180.0,
+    29.19999999999999
+  ],
+  "query_edge_count": 3372,
+  "render_edge_count": 2617,
+  "scale": 0.25,
+  "source": "raw_delta_line_search_translation_only",
+  "translation_delta_alt_m": -2.3819505322463783,
+  "translation_delta_east_m": 0.26976699430088047,
+  "translation_delta_north_m": -1.5495228936197236,
+  "translation_lon_lat_alt": [
+    114.4368640591129,
+    30.391347058311954,
+    389.0800494677536
+  ],
+  "valid_depth_ratio": 0.9981947617493473
+}

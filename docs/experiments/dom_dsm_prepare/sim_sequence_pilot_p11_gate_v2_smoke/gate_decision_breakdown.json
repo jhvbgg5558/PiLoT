@@ -1,0 +1,20 @@
+{
+  "final_accept_ratio": 0.3333333333333333,
+  "num_candidate_rows": 17,
+  "pose_gate_accept_ratio": 0.7857142857142857,
+  "pose_reject_reasons": {
+    "pose_yaw_jump": 3
+  },
+  "selected_method_counts": {
+    "init": 2,
+    "temporal_predicted": 1
+  },
+  "temporal_gate_accept_ratio": 0.42857142857142855,
+  "temporal_reject_reasons": {
+    "temporal_xy": 8
+  },
+  "visual_gate_accept_ratio": 0.9285714285714286,
+  "visual_reject_reasons": {
+    "visual_overlap_worse": 1
+  }
+}

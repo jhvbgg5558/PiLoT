@@ -1,0 +1,27 @@
+{
+  "config": "configs/caiwangcun_domdsm.yaml",
+  "image_shape_hwc": [
+    383,
+    512,
+    3
+  ],
+  "important_note": "raw_refined_full is the direct refine render, but the recent experiment marks it visually worse than initial; safe_selected falls back to initial.",
+  "output_dir": "docs/experiments/dom_dsm_prepare/refine_render_overlay_exif_test_0000",
+  "outputs": {
+    "contact_sheet": "contact_sheet.png",
+    "refine_initial_edge_overlay": "raw_refined_vs_initial_edge_overlay.png",
+    "refine_initial_overlay": "raw_refined_vs_initial_overlay.png",
+    "refine_query_overlay": "raw_refined_vs_query_overlay.png",
+    "refine_render": "raw_refined_rendered_rgb.png"
+  },
+  "pose_file": "data_caiwangcun/query/poses/exif_test_yawfix.txt",
+  "query_image": "data_caiwangcun/query/images/exif_test/0000.jpg",
+  "safe_gate": {
+    "policy": "chamfer<=initial and overlap>=initial, then min(chamfer-overlap), fallback initial",
+    "raw_refined_visually_degrades_initial": true,
+    "recommendation": "keep_initial_pose",
+    "selected_candidate": "initial",
+    "selected_is_initial": true
+  },
+  "source_experiment": "docs/experiments/dom_dsm_prepare/domdsm_refine_single_0000_exif_test"
+}

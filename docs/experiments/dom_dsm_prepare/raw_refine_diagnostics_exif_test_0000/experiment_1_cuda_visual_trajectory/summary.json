@@ -1,0 +1,62 @@
+{
+  "chamfer_end": 11.457258224487305,
+  "chamfer_improved": false,
+  "chamfer_start": 9.441097259521484,
+  "cuda": {
+    "has_residual": true,
+    "has_step": true,
+    "module_path": "/mnt/d/aiproject/PiLoT_work/.conda/pilot/lib/python3.10/site-packages/direct_abs_cost_cuda.cpython-310-x86_64-linux-gnu.so"
+  },
+  "cuda_loss_decreased": true,
+  "cuda_loss_end": 0.035771820694208145,
+  "cuda_loss_start": 0.035946134477853775,
+  "experiment": "cuda_internal_loss_vs_visual_metric",
+  "internal_loss_improves_but_visual_worse": true,
+  "num_records": 12,
+  "overlap_end": 0.33513513513513515,
+  "overlap_improved": false,
+  "overlap_start": 0.4214876033057851,
+  "topk_events": [
+    {
+      "after_count": 32,
+      "after_level": 2,
+      "before_count": 144,
+      "selected_indices": [
+        76,
+        60,
+        77,
+        61,
+        93,
+        56,
+        92,
+        72,
+        57,
+        73,
+        89,
+        94,
+        74,
+        88,
+        90,
+        78,
+        40,
+        41,
+        70,
+        54,
+        53,
+        58,
+        52,
+        71,
+        69,
+        109,
+        44,
+        50,
+        55,
+        38,
+        45,
+        68
+      ]
+    }
+  ],
+  "torch_feature_loss_end": 0.1319921910762787,
+  "torch_feature_loss_start": 0.2255493402481079
+}

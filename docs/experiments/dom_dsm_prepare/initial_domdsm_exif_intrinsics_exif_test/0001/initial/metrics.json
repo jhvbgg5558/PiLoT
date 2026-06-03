@@ -1,0 +1,30 @@
+{
+  "candidate": "initial",
+  "depth_max": 420.0,
+  "depth_min": 330.0,
+  "edge_chamfer": 23.749454498291016,
+  "edge_overlap_count": 41416,
+  "edge_overlap_ratio": 0.2776913586869066,
+  "euler_pitch_roll_yaw": [
+    0.0,
+    180.0,
+    29.400000000000006
+  ],
+  "image": "0001.JPG",
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/initial_domdsm_exif_intrinsics_exif_test/0001/initial",
+  "query_edge_count": 347716,
+  "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0001.JPG",
+  "query_resized_for_overlay": false,
+  "render_edge_count": 149144,
+  "render_height": 3956,
+  "render_time_sec": 22.075233158999254,
+  "render_width": 5280,
+  "source_query_height": 3956,
+  "source_query_width": 5280,
+  "translation_lon_lat_alt": [
+    114.4379083611,
+    30.3897293889,
+    391.49
+  ],
+  "valid_depth_ratio": 1.0
+}

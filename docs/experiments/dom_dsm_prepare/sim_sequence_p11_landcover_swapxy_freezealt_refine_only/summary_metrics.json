@@ -1,0 +1,81 @@
+{
+  "adapter_mode": "swap_xy_freeze_alt_corrected_downward_yaw",
+  "config": "/mnt/d/aiproject/PiLoT_work/configs/caiwangcun_domdsm_16x9.yaml",
+  "drift_indicators": {
+    "final_alt_error_m": 2.0349999999999966,
+    "final_xy_error_m": 631.5435285079444,
+    "final_yaw_error_deg": 27.64758822228444,
+    "max_alt_error_m": 2.0349999999999966,
+    "max_xy_error_m": 631.5435285079444,
+    "max_yaw_error_deg": 72.84761675373215
+  },
+  "experiment": "P11 landcover refine-only swapXY freeze-alt propagation",
+  "failure_count": 0,
+  "failures": [],
+  "first_pose_source": "gt_poses.txt:first_frame",
+  "init_alt_error_m": {
+    "final": 2.0349999999999966,
+    "max": 2.0349999999999966,
+    "mean": 0.3852399999999945,
+    "median": 0.25450000000000017,
+    "rmse": 0.5415039796714288
+  },
+  "init_xy_error_m": {
+    "final": 624.5131387551005,
+    "max": 624.5131387551005,
+    "mean": 335.3141552037219,
+    "median": 328.4221411563308,
+    "rmse": 377.6557442197213
+  },
+  "init_yaw_error_deg": {
+    "final": 28.6112655803295,
+    "max": 72.84761675373215,
+    "mean": 31.105952944271426,
+    "median": 27.929418035451903,
+    "rmse": 35.616774374230836
+  },
+  "mean_feature_loss_drop": 7.099650334566823e-05,
+  "num_frames": 100,
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_p11_landcover_swapxy_freezealt_refine_only",
+  "propagation_policy": "next init equals previous accepted adapted refine pose",
+  "raster_crs": "EPSG:32650",
+  "raw_refined_xy_error_m": {
+    "final": 616.9530756278782,
+    "max": 616.9530756278782,
+    "mean": 332.87623865902077,
+    "median": 331.2294737918343,
+    "rmse": 375.68677300720134
+  },
+  "refine_success_count": 100,
+  "selected_alt_error_m": {
+    "final": 2.0349999999999966,
+    "max": 2.0349999999999966,
+    "mean": 0.3852399999999945,
+    "median": 0.25450000000000017,
+    "rmse": 0.5415039796714288
+  },
+  "selected_method_counts": {
+    "swap_xy_freeze_alt_refine_only": 100
+  },
+  "selected_minus_init_alt_rmse": 0.0,
+  "selected_minus_init_xy_rmse": 4.909801493025441,
+  "selected_minus_init_yaw_rmse": 0.10714629763770489,
+  "selected_xy_error_m": {
+    "final": 631.5435285079444,
+    "max": 631.5435285079444,
+    "mean": 341.39479928654924,
+    "median": 331.03044872495445,
+    "rmse": 382.56554571274677
+  },
+  "selected_yaw_error_deg": {
+    "final": 27.64758822228444,
+    "max": 72.84761675373215,
+    "mean": 31.382428826494273,
+    "median": 28.12942690130697,
+    "rmse": 35.72392067186854
+  },
+  "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+  "uses_init_noisy_poses": false,
+  "uses_odom_edges": false,
+  "uses_safe_gate": false
+}

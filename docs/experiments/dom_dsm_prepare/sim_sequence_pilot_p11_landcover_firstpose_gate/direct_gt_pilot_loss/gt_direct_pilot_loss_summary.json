@@ -1,0 +1,109 @@
+{
+  "mode": "Pilot dense feature loss between query and direct render from GT intrinsics/extrinsics; no pose optimization",
+  "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+  "run_dir_for_baseline_losses": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate",
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate/direct_gt_pilot_loss",
+  "num_frames": 100,
+  "intrinsics_render_camera_w_h_cx_cy_fx_fy": [
+    512.0,
+    384.0,
+    256.0,
+    192.0,
+    361.22682288484845,
+    361.59206739737107
+  ],
+  "extrinsics_source": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover/poses/gt_poses.txt",
+  "gt_pilot_dense_feature_loss": {
+    "count": 100,
+    "mean": 9.334248990247335e-05,
+    "median": 8.94557360879844e-05,
+    "p90": 0.00011428297511884013,
+    "min": 5.5254019874458514e-05,
+    "max": 0.00014362943572147438,
+    "std": 1.7548861748617765e-05
+  },
+  "init_pilot_dense_feature_loss": {
+    "count": 100,
+    "mean": 0.0026593428252575297,
+    "median": 0.0026539644653288024,
+    "p90": 0.0027077978961945826,
+    "min": 0.002587103323700527,
+    "max": 0.002739564147001753,
+    "std": 3.445475126114521e-05
+  },
+  "refined_pilot_dense_feature_loss": {
+    "count": 100,
+    "mean": 0.004470536756174018,
+    "median": 0.004466305040599158,
+    "p90": 0.004619694733992219,
+    "min": 0.00420542045806845,
+    "max": 0.004976812129219373,
+    "std": 0.00012519417698047828
+  },
+  "gt_minus_init_loss": {
+    "count": 100,
+    "mean": -0.002566000335355057,
+    "median": -0.00256748062868913,
+    "p90": -0.002518142040207749,
+    "min": -0.002658662849474543,
+    "max": -0.0024657475150888786,
+    "std": 3.9269205340504846e-05
+  },
+  "gt_minus_refined_loss": {
+    "count": 100,
+    "mean": -0.004377194266271545,
+    "median": -0.00438170719947569,
+    "p90": -0.004226870140216003,
+    "min": -0.0048555841397804516,
+    "max": -0.004067274313759602,
+    "std": 0.00012524653545614343
+  },
+  "gt_chamfer": {
+    "count": 100,
+    "mean": 0.1750777195394039,
+    "median": 0.17481695860624313,
+    "p90": 0.18809384405612947,
+    "min": 0.154320627450943,
+    "max": 0.201740562915802,
+    "std": 0.010132974337461397
+  },
+  "gt_overlap": {
+    "count": 100,
+    "mean": 0.9575991650959499,
+    "median": 0.9579111507623097,
+    "p90": 0.961433026019794,
+    "min": 0.949942917361904,
+    "max": 0.9637824839689504,
+    "std": 0.003001718090461679
+  },
+  "rgb_mae": {
+    "count": 100,
+    "mean": 2.396219177246094,
+    "median": 2.3993521796332464,
+    "p90": 2.439063686794705,
+    "min": 2.3340945773654513,
+    "max": 2.4510972764756946,
+    "std": 0.03217142044566073
+  },
+  "rgb_psnr_db": {
+    "count": 100,
+    "mean": 37.80419901835155,
+    "median": 37.79588356124343,
+    "p90": 38.0008732835585,
+    "min": 37.58423949341423,
+    "max": 38.049980628178716,
+    "std": 0.13301724960978328
+  },
+  "valid_depth_ratio": {
+    "count": 100,
+    "mean": 1.0,
+    "median": 1.0,
+    "p90": 1.0,
+    "min": 1.0,
+    "max": 1.0,
+    "std": 0.0
+  },
+  "renderer_backend_requested": "gpu_mesh",
+  "renderer_backend_used_last": "prototype",
+  "renderer_fallback_last": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'"
+}

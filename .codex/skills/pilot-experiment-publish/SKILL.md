@@ -10,7 +10,7 @@ description: 在 `jhvbgg5558/PiLoT` 仓库中整理并发布一次本地实验�
 
 ## 工作流程
 
-开始暂存前先阅读 [references/pilot-upload-rules.md](references/pilot-upload-rules.md)。其中整理了这个仓库专用的允许上传项、禁止上传项、`docs/experiments/dom_dsm_prepare/` 现有目录习惯，以及提交信息命名建议。
+开始暂存前先阅读 [references/pilot-upload-rules.md](references/pilot-upload-rules.md) 和 [references/runtime-environment.md](references/runtime-environment.md)。前者整理这个仓库专用的允许上传项、禁止上传项、`docs/experiments/dom_dsm_prepare/` 现有目录习惯，以及提交信息命名建议；后者记录当前默认执行环境，便于解释实验结果和兼容性问题。
 
 ## 先检查
 

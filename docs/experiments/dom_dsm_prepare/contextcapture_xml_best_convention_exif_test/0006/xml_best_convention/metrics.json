@@ -1,0 +1,66 @@
+{
+  "axis_transform": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "camera_center_raster_crs": [
+    254022.97602563034,
+    3364831.1941338256,
+    391.4740614567163
+  ],
+  "camera_center_xml_srs": [
+    542284.0547994265,
+    3363477.531518413,
+    391.4740614567163
+  ],
+  "candidate": "xml_best_convention",
+  "depth_max": 406.0,
+  "depth_min": 330.0,
+  "distortion_enabled": true,
+  "edge_chamfer": 13.940582275390625,
+  "edge_overlap_count": 116980,
+  "edge_overlap_ratio": 0.3950238743271627,
+  "image": "0006.JPG",
+  "intrinsics": {
+    "aspect": 0.999965,
+    "cx": 2650.555218,
+    "cy": 1961.222555,
+    "distortion": {
+      "k1": -0.101571,
+      "k2": -0.019639,
+      "k3": 0.0,
+      "p1": -0.000217,
+      "p2": 0.000239
+    },
+    "focal": 3722.256453,
+    "fx": 3722.256453,
+    "fy": 3722.3867365357787,
+    "fy_rule": "fy = focal / aspect",
+    "height": 3956,
+    "photogroup_index": 1,
+    "skew": 0.0,
+    "width": 5280
+  },
+  "match_distance_xy_m": 0.11007913602483027,
+  "match_distance_z_m": 0.013938543283700255,
+  "match_warning": false,
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/contextcapture_xml_best_convention_exif_test/0006/xml_best_convention",
+  "principal_point_mode": "xml",
+  "query_edge_count": 424485,
+  "query_image_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/query/images/exif_test/0006.JPG",
+  "query_resized_for_overlay": false,
+  "ray_step_m": 2.0,
+  "render_edge_count": 296134,
+  "render_height": 3956,
+  "render_scale": 1.0,
+  "render_time_sec": 42.811226869001985,
+  "render_width": 5280,
+  "rotation_convention": "R_xml_transpose",
+  "sampling_mode": "nearest",
+  "source_query_height": 3956,
+  "source_query_width": 5280,
+  "valid_depth_ratio": 1.0,
+  "xml_image_path": "//192.168.2.45/e/2025GS-test-data/202510/1094\u5f20/DJI_202510311347_009_\u65b0\u5efa\u9762\u72b6\u822a\u7ebf1/DJI_20251031135805_0129_V.JPG",
+  "xml_photo_id": "129"
+}

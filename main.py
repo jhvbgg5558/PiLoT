@@ -4,6 +4,7 @@
 Entry script for running localization via shell scripts.
 """
 import argparse
+import csv
 import glob
 import logging
 import os
@@ -91,6 +92,9 @@ class DualProcessTask:
         self.estimated_pose_path = os.path.join(
             output_folder, dataset_name + ".txt"
         )
+        self.pose_trace_path = os.path.join(
+            output_folder, dataset_name + "_pose_trace.csv"
+        )
 
         if self.enable_target:
             self.gt_target_xy_path = os.path.join(
@@ -115,9 +119,6 @@ class DualProcessTask:
         self._setup_poses(default_confs)
 
         self.device = "cuda"
-        self.origin = torch.tensor(self.origin, device=self.device)
-        self.query_camera = self.query_camera.to(self.device)
-        self.render_camera = self.render_camera.to(self.device)
 
         # Seed the render queue with the initial pose
         init_tag = "0_init.png"
@@ -198,8 +199,67 @@ class DualProcessTask:
         self.gt_pose_dict = load_pose_dict(
             self.gt_pose_path, origin=self.origin
         )
+        self.gt_raw_pose_dict = self._load_raw_pose_dict(self.gt_pose_path)
         if self.enable_target:
             self.target_xy_dict = load_target_points(self.gt_target_xy_path)
+
+    @staticmethod
+    def _load_raw_pose_dict(pose_file: str) -> Dict[str, Dict[str, List[float]]]:
+        """Load raw WGS84 poses as ``lon lat alt`` and ``roll pitch yaw``."""
+        poses: Dict[str, Dict[str, List[float]]] = {}
+        with open(pose_file, "r") as f:
+            for line in f:
+                parts = line.strip().split()
+                if not parts:
+                    continue
+                lon, lat, alt, roll, pitch, yaw = map(float, parts[1:])
+                name = parts[0].split("/")[-1]
+                if "_" not in name:
+                    root, ext = os.path.splitext(name)
+                    name = root + "_0" + ext
+                poses[name] = {
+                    "trans": [lon, lat, alt],
+                    "euler_file": [roll, pitch, yaw],
+                }
+        return poses
+
+    @staticmethod
+    def _to_float_list(values: Any) -> List[float]:
+        """Convert list/tuple/ndarray/tensor pose values to Python floats."""
+        if torch.is_tensor(values):
+            values = values.detach().cpu().tolist()
+        elif isinstance(values, np.ndarray):
+            values = values.tolist()
+        return [float(v) for v in values]
+
+    @staticmethod
+    def _euler_internal_to_file(euler: Any) -> List[float]:
+        """Convert internal ``[pitch, roll, yaw]`` to file ``[roll, pitch, yaw]``."""
+        pitch, roll, yaw = DualProcessTask._to_float_list(euler)
+        return [roll, pitch, yaw]
+
+    def _write_localization_outputs(
+        self,
+        results: List[str],
+        trace_rows: List[List[Any]],
+    ) -> None:
+        """Write refined poses and per-frame render/refined/GT trace."""
+        with open(self.estimated_pose_path, "w") as f:
+            f.write("\n".join(results))
+
+        header = [
+            "image",
+            "render_lon", "render_lat", "render_alt",
+            "render_roll", "render_pitch", "render_yaw",
+            "refined_lon", "refined_lat", "refined_alt",
+            "refined_roll", "refined_pitch", "refined_yaw",
+            "gt_lon", "gt_lat", "gt_alt",
+            "gt_roll", "gt_pitch", "gt_yaw",
+        ]
+        with open(self.pose_trace_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(header)
+            writer.writerows(trace_rows)
 
     # -- Workers --------------------------------------------------------------
 
@@ -212,6 +272,8 @@ class DualProcessTask:
         * ``"dom_dsm"`` – DOM + DSM GeoTIFF prototype renderer
         """
         setproctitle.setproctitle("PiLoT_Render")
+        if self.enable_target:
+            self.render_camera = self.render_camera.to(self.device)
         use_3dgs = self.render_type == "3dgs"
         use_dom_dsm = self.render_type == "dom_dsm"
 
@@ -309,75 +371,96 @@ class DualProcessTask:
         from pixloc.localization.localizer import RenderLocalizer
 
         setproctitle.setproctitle("PiLoT_Localize")
+        self.origin = torch.tensor(self.origin, device=self.device)
+        self.query_camera = self.query_camera.to(self.device)
+        self.render_camera = self.render_camera.to(self.device)
         localizer = RenderLocalizer(self.conf)
         results: List[str] = []
+        trace_rows: List[List[Any]] = []
         last_euler: Optional[np.ndarray] = None
         last_trans: Optional[List[float]] = None
 
-        for idx, (img_path, img_tensor) in enumerate(
-            zip(self.img_list, self.query_list)
-        ):
-            item = self.task_q.get()
-            if item is None:
-                break
+        try:
+            for idx, (img_path, img_tensor) in enumerate(
+                zip(self.img_list, self.query_list)
+            ):
+                item = self.task_q.get()
+                if item is None:
+                    break
 
-            color, depth, render_euler, render_trans = item
+                color, depth, render_euler, render_trans = item
 
-            if last_trans is None:
-                last_euler, last_trans = render_euler, render_trans
+                if last_trans is None:
+                    last_euler, last_trans = render_euler, render_trans
 
-            is_init = (idx == 0)
-            p3d, T_w2c, T_init, dd = self.back_project(
-                depth, render_euler, render_trans,
-                last_euler, last_trans, is_init,
-            )
-
-            t0 = time.time()
-            ret = localizer.run_query(
-                img_path,
-                self.query_camera,
-                self.render_camera,
-                color,
-                query_T=T_init,
-                render_T=T_w2c,
-                Points_3D_ECEF=p3d,
-                query_resize_ratio=self.query_resize_ratio,
-                dd=dd,
-                gt_pose_dict=self.gt_pose_dict,
-                last_frame_info=self.last_frame_info,
-                image_query=img_tensor,
-            )
-
-            last_euler = ret["euler_angles"]
-            last_trans = ret["translation"]
-            qname = os.path.basename(img_path)
-
-            elapsed_ms = (time.time() - t0) * 1000
-            if idx % 30 == 0:
-                logger.info("Frame %d | %.1f ms", idx, elapsed_ms)
-
-            if idx < len(self.img_list) - 1:
-                self.pose_q.put(
-                    (ret["euler_angles"], ret["translation"], qname, None)
+                is_init = (idx == 0)
+                p3d, T_w2c, T_init, dd = self.back_project(
+                    depth, render_euler, render_trans,
+                    last_euler, last_trans, is_init,
                 )
 
-            logger.info(
-                "Frame %d | euler=%s | trans=%s",
-                idx, ret["euler_angles"].tolist(), ret["translation"],
-            )
+                t0 = time.time()
+                ret = localizer.run_query(
+                    img_path,
+                    self.query_camera,
+                    self.render_camera,
+                    color,
+                    query_T=T_init,
+                    render_T=T_w2c,
+                    Points_3D_ECEF=p3d,
+                    query_resize_ratio=self.query_resize_ratio,
+                    dd=dd,
+                    gt_pose_dict=self.gt_pose_dict,
+                    last_frame_info=self.last_frame_info,
+                    image_query=img_tensor,
+                )
 
-            ea = ret["euler_angles"]
-            results.append(
-                f"{qname} "
-                f"{' '.join(map(str, ret['translation']))} "
-                f"{ea[1]} {ea[0]} {ea[2]}"
-            )
+                last_euler = ret["euler_angles"]
+                last_trans = ret["translation"]
+                qname = os.path.basename(img_path)
 
-            if self.stop_evt.is_set():
-                break
+                elapsed_ms = (time.time() - t0) * 1000
+                if idx % 30 == 0:
+                    logger.info("Frame %d | %.1f ms", idx, elapsed_ms)
 
-        with open(self.estimated_pose_path, "w") as f:
-            f.write("\n".join(results))
+                if idx < len(self.img_list) - 1:
+                    self.pose_q.put(
+                        (ret["euler_angles"], ret["translation"], qname, None)
+                    )
+
+                logger.info(
+                    "Frame %d | euler=%s | trans=%s",
+                    idx, ret["euler_angles"].tolist(), ret["translation"],
+                )
+
+                render_trans_file = self._to_float_list(render_trans)
+                render_euler_file = self._euler_internal_to_file(render_euler)
+                refined_trans_file = self._to_float_list(ret["translation"])
+                refined_euler_file = self._euler_internal_to_file(
+                    ret["euler_angles"]
+                )
+                gt_pose = self.gt_raw_pose_dict[qname]
+                trace_rows.append(
+                    [qname]
+                    + render_trans_file
+                    + render_euler_file
+                    + refined_trans_file
+                    + refined_euler_file
+                    + gt_pose["trans"]
+                    + gt_pose["euler_file"]
+                )
+
+                ea = ret["euler_angles"]
+                results.append(
+                    f"{qname} "
+                    f"{' '.join(map(str, ret['translation']))} "
+                    f"{ea[1]} {ea[0]} {ea[2]}"
+                )
+
+                if self.stop_evt.is_set():
+                    break
+        finally:
+            self._write_localization_outputs(results, trace_rows)
 
         if self.enable_viz:
             self._build_viz_video()

@@ -1,0 +1,214 @@
+{
+  "agl_m": 80.0,
+  "camera": {
+    "height": 384,
+    "render_camera_w_h_cx_cy_fx_fy": [
+      512.0,
+      384.0,
+      256.0,
+      192.0,
+      361.22682288484845,
+      361.59206739737107
+    ],
+    "scale_x": 0.09696969696969697,
+    "scale_y": 0.09706774519716886,
+    "source_height": 3956,
+    "source_params_fx_fy_cx_cy": [
+      3725.151611,
+      3725.151611,
+      2640.0,
+      1978.0
+    ],
+    "source_width": 5280,
+    "width": 512
+  },
+  "config": "configs/caiwangcun_domdsm_16x9.yaml",
+  "heading_deg": 29.2,
+  "landcover": {
+    "grid_size": 15,
+    "mode": "mixed_road_vegetation",
+    "patch_m": 80.0,
+    "sample_stride": 5
+  },
+  "landcover_mode": "mixed_road_vegetation",
+  "noise": {
+    "init_noise_alt_std": 1.0,
+    "init_noise_xy_std": 3.0,
+    "init_noise_yaw_std": 2.0,
+    "odom_noise_xy_std": 0.0,
+    "odom_noise_yaw_std": 0.0
+  },
+  "num_frames": 100,
+  "raster": {
+    "crs": "EPSG:32650",
+    "dom_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "dom_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dom.tif",
+    "dom_res": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "dsm_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "dsm_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dsm.tif",
+    "dsm_res": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "intersection_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "nodata": -9999
+  },
+  "renderer": {
+    "backend": "gpu_mesh",
+    "gpu_renderer": "nvdiffrast",
+    "min_valid_depth_ratio": 0.05,
+    "type": "dom_dsm"
+  },
+  "seed": 11,
+  "step_m": 1.0,
+  "task": "P11 - Synthetic flight sequence generation for DOMDSM PiLoT",
+  "trajectory": {
+    "center_xy": [
+      254812.7905116425,
+      3363845.8627577256
+    ],
+    "end_xy": [
+      254836.93956476994,
+      3363889.0724005513
+    ],
+    "landcover_mode": "mixed_road_vegetation",
+    "length_m": 99.0,
+    "selected_landcover_metrics": {
+      "building_density": 0.011672247023809524,
+      "edge_density": 0.24449198082010581,
+      "height_variation": 1.4852653003874279,
+      "landcover_score": 1.4547251796596266,
+      "road_like_ratio": 0.5812355324074074,
+      "sample_frame_indices": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        99
+      ],
+      "vegetation_ratio": 0.3960658482142857
+    },
+    "selection_score": 1.4547251796596266,
+    "start_xy": [
+      254788.64145851522,
+      3363802.653114902
+    ],
+    "top_landcover_candidates": [
+      {
+        "center_xy": [
+          254500.5859709382,
+          3365646.681722222
+        ],
+        "finite_count": 67,
+        "score": 32.25311521691339
+      },
+      {
+        "center_xy": [
+          253407.87007847292,
+          3365196.4769810983
+        ],
+        "finite_count": 9,
+        "score": 31.638720200490003
+      },
+      {
+        "center_xy": [
+          254656.6882412904,
+          3365646.681722222
+        ],
+        "finite_count": 62,
+        "score": 31.070475511778653
+      },
+      {
+        "center_xy": [
+          255593.30186340353,
+          3365496.6134751807
+        ],
+        "finite_count": 75,
+        "score": 29.87048995841146
+      },
+      {
+        "center_xy": [
+          254968.89278199477,
+          3365646.681722222
+        ],
+        "finite_count": 53,
+        "score": 28.764971524873904
+      },
+      {
+        "center_xy": [
+          254344.48370058605,
+          3365646.681722222
+        ],
+        "finite_count": 72,
+        "score": 28.037714464204747
+      },
+      {
+        "center_xy": [
+          253563.9723488251,
+          3365646.681722222
+        ],
+        "finite_count": 95,
+        "score": 26.358924323645166
+      },
+      {
+        "center_xy": [
+          253407.87007847292,
+          3364746.2722399742
+        ],
+        "finite_count": 34,
+        "score": 26.1334730456972
+      },
+      {
+        "center_xy": [
+          255593.30186340353,
+          3365346.5452281395
+        ],
+        "finite_count": 85,
+        "score": 25.922615424105494
+      },
+      {
+        "center_xy": [
+          253876.17688952948,
+          3365646.681722222
+        ],
+        "finite_count": 86,
+        "score": 25.447803259625726
+      }
+    ]
+  },
+  "trajectory_type": "straight_line"
+}

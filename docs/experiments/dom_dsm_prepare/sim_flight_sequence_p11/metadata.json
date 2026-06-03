@@ -1,0 +1,92 @@
+{
+  "agl_m": 80.0,
+  "camera": {
+    "height": 384,
+    "render_camera_w_h_cx_cy_fx_fy": [
+      512.0,
+      384.0,
+      256.0,
+      192.0,
+      361.22682288484845,
+      361.59206739737107
+    ],
+    "scale_x": 0.09696969696969697,
+    "scale_y": 0.09706774519716886,
+    "source_height": 3956,
+    "source_params_fx_fy_cx_cy": [
+      3725.151611,
+      3725.151611,
+      2640.0,
+      1978.0
+    ],
+    "source_width": 5280,
+    "width": 512
+  },
+  "config": "configs/caiwangcun_domdsm_16x9.yaml",
+  "heading_deg": 29.2,
+  "noise": {
+    "init_noise_alt_std": 1.0,
+    "init_noise_xy_std": 3.0,
+    "init_noise_yaw_std": 2.0,
+    "odom_noise_xy_std": 0.0,
+    "odom_noise_yaw_std": 0.0
+  },
+  "num_frames": 100,
+  "raster": {
+    "crs": "EPSG:32650",
+    "dom_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "dom_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dom.tif",
+    "dom_res": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "dsm_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "dsm_path": "/mnt/d/aiproject/PiLoT_work/data_caiwangcun/reference/caiwangcun_dsm.tif",
+    "dsm_res": [
+      0.1400457612028412,
+      0.1400457612028412
+    ],
+    "intersection_bounds": [
+      253383.72102534556,
+      3363502.5166208195,
+      255617.45091653088,
+      3365689.8913650466
+    ],
+    "nodata": -9999
+  },
+  "renderer": {
+    "backend": "gpu_mesh",
+    "gpu_renderer": "nvdiffrast",
+    "min_valid_depth_ratio": 0.05,
+    "type": "dom_dsm"
+  },
+  "seed": 11,
+  "step_m": 1.0,
+  "task": "P11 - Synthetic flight sequence generation for DOMDSM PiLoT",
+  "trajectory": {
+    "center_xy": [
+      254500.5859709382,
+      3364596.2039929316
+    ],
+    "end_xy": [
+      254524.73502406557,
+      3364639.4136357578
+    ],
+    "length_m": 99.0,
+    "start_xy": [
+      254476.43691781085,
+      3364552.9943501083
+    ]
+  },
+  "trajectory_type": "straight_line"
+}

@@ -1,0 +1,36 @@
+{
+  "corrected_refined_only": {
+    "corrected_refined_only": 100
+  },
+  "firstpose_odom_init_only": {
+    "init": 100
+  },
+  "firstpose_odom_safe_selected": {
+    "init": 100
+  },
+  "gate_v2_current": {
+    "init": 32,
+    "refined_freeze_alt_corrected_yaw": 1,
+    "refined_freeze_alt_init_yaw": 2,
+    "temporal_predicted": 65
+  },
+  "gate_v2_no_temporal": {
+    "init": 5,
+    "refined_freeze_alt_corrected_yaw": 9,
+    "refined_freeze_alt_init_yaw": 86
+  },
+  "init_only": {
+    "init": 100
+  },
+  "old_visual_gate": {
+    "init": 83,
+    "refined": 17
+  },
+  "raw_refined_only": {
+    "refined": 100
+  },
+  "temporal_pred_only": {
+    "init_seed": 1,
+    "temporal_pred_only": 99
+  }
+}

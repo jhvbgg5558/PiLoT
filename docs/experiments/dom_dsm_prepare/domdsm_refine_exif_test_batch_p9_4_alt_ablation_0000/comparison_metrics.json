@@ -1,0 +1,49 @@
+{
+  "image": "0000.jpg",
+  "initial": {
+    "edge_chamfer": 7.15685510635376,
+    "edge_overlap_ratio": 0.5511176255038476
+  },
+  "keep_alt_minus_freeze_alt": {
+    "edge_chamfer": 1.7996950149536133,
+    "edge_overlap_ratio": -0.17640586224657018
+  },
+  "outputs": {
+    "dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4_alt_ablation_0000",
+    "edge_overlay": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4_alt_ablation_0000/swap_xy_keep_alt_corrected_downward_yaw_edge_overlay.png",
+    "overlay": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/domdsm_refine_exif_test_batch_p9_4_alt_ablation_0000/swap_xy_keep_alt_corrected_downward_yaw_overlay.png"
+  },
+  "raster_crs": "EPSG:32650",
+  "swap_xy_freeze_alt_corrected_downward_yaw": {
+    "applied_delta_east_north_alt_m": [
+      -4.806225331034511,
+      2.076548933109734,
+      0.0
+    ],
+    "chamfer_delta_vs_initial": -0.08059167861938477,
+    "edge_chamfer": 7.076263427734375,
+    "edge_overlap_ratio": 0.701058201058201,
+    "overlap_delta_vs_initial": 0.14994057555435347,
+    "translation_lon_lat_alt": [
+      114.4368104201625,
+      30.391378711046396,
+      391.462
+    ]
+  },
+  "swap_xy_keep_alt_corrected_downward_yaw": {
+    "applied_delta_east_north_alt_m": [
+      -4.806225331034511,
+      2.076548933109734,
+      -10.11000772909074
+    ],
+    "chamfer_delta_vs_initial": 1.7191033363342285,
+    "edge_chamfer": 8.875958442687988,
+    "edge_overlap_ratio": 0.5246523388116309,
+    "overlap_delta_vs_initial": -0.026465286692216705,
+    "translation_lon_lat_alt": [
+      114.4368104201625,
+      30.391378711046396,
+      381.35199227090925
+    ]
+  }
+}

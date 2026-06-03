@@ -1,0 +1,15 @@
+{
+  "sequence_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_flight_sequence_p11_landcover",
+  "run_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate",
+  "output_dir": "/mnt/d/aiproject/PiLoT_work/docs/experiments/dom_dsm_prepare/sim_sequence_pilot_p11_landcover_firstpose_gate/refined_query_overlays",
+  "num_frames": 100,
+  "overlay_alpha": "query 55% + refined render 45%",
+  "edge_legend": {
+    "cyan": "query edge",
+    "red": "refined render edge",
+    "white": "overlap"
+  },
+  "renderer_backend_requested": "gpu_mesh",
+  "renderer_backend_used_last": "prototype",
+  "renderer_fallback_last": "RuntimeError: ModuleNotFoundError: No module named 'nvdiffrast'"
+}

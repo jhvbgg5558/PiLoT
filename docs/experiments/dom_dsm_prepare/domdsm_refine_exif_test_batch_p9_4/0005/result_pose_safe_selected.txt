@@ -1,0 +1,4 @@
+# safe_selected
+method: initial
+safe_gate_pass: True
+0005.JPG 114.4389233889 30.3920651667 391.457 180.0 0.0 29.19999999999999

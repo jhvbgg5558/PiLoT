@@ -1,0 +1,4 @@
+# safe_selected
+method: swap_xy_freeze_alt_corrected_downward_yaw
+safe_gate_pass: True
+0001.JPG 114.43781755980375 30.389833826232447 391.49 180.0 0.0 30.064839059350533
